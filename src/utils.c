@@ -101,6 +101,11 @@ double compute_std(const long *array, const size_t len, const double mean) {
 
 void compute_array_stats(const long *array, const size_t len,
                          struct array_stats_t *stats) {
+  assert(array);
+  assert(len >= 3);
+  stats->first = array[0];
+  stats->second = array[1];
+  stats->third = array[2];
   stats->min = find_smallest(array, len);
   stats->max = find_largest(array, len);
   stats->median = compute_median(array, len);
@@ -109,6 +114,9 @@ void compute_array_stats(const long *array, const size_t len,
 }
 
 void print_array_stats(const struct array_stats_t *stats, const char *unit) {
+  printf("first = %ld %s\n", stats->first, unit);
+  printf("second = %ld %s\n", stats->second, unit);
+  printf("third = %ld %s\n", stats->third, unit);
   printf("min = %ld %s\n", stats->min, unit);
   printf("max = %ld %s\n", stats->max, unit);
   printf("median = %lf %s\n", stats->median, unit);

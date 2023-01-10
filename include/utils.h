@@ -6,6 +6,9 @@
 struct timespec timespec_diff(struct timespec start, struct timespec end);
 
 struct array_stats_t {
+  long first;
+  long second;
+  long third;
   long min;
   long max;
   double median;

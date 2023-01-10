@@ -20,6 +20,18 @@ echo "Starting benchmark-traces-simple ..."
 echo "Starting benchmark-traces-context-extraction ..."
 ./build/benchmark-traces-context-extraction
 
+echo "Starting benchmark-traces-event ..."
+./build/benchmark-traces-event
+
+echo "Starting benchmark-traces-attribute ..."
+./build/benchmark-traces-attribute
+
+echo "Starting benchmark-traces-span-context ..."
+./build/benchmark-traces-span-context
+
+echo "Starting benchmark-traces-nested-span ..."
+./build/benchmark-traces-nested-span
+
 # echo "Stop LTTng session ..."
 # lttng stop
 
