@@ -4,6 +4,7 @@ project(opentelemetry-c-performance)
 
 set(CMAKE_C_STANDARD 99)
 
+option(LTTNG_EXPORTER_ENABLED "Whether to use LTTng exporter or not. If set to off, OTLP GRPC default exporter will be used" ON)
 set(BUILD_EXAMPLES OFF)
 add_subdirectory(third-party/opentelemetry-c)
 

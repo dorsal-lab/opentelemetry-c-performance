@@ -1,44 +1,64 @@
 #!/usr/bin/env bash
-
-set -ex
+set -e
 
 echo "Building all targets ..."
+buildir_lttng_expoter_on=/tmp/buildir_lttng_expoter_on
+mkdir -p "$buildir_lttng_expoter_on"
+cmake -B "$buildir_lttng_expoter_on" -S . -D CMAKE_BUILD_TYPE=Release -D LTTNG_EXPORTER_ENABLED=ON
+cmake --build "$buildir_lttng_expoter_on" --target all --
+buildir_lttng_expoter_off=/tmp/buildir_lttng_expoter_off
+mkdir -p "$buildir_lttng_expoter_off"
+cmake -B "$buildir_lttng_expoter_off" -S . -D CMAKE_BUILD_TYPE=Release -D LTTNG_EXPORTER_ENABLED=OFF
+cmake --build "$buildir_lttng_expoter_off" --target all --
 
-mkdir -p build
-cmake -B build -S . -D CMAKE_BUILD_TYPE=Release
-cmake --build build/ --target all --
+echo "Setup the collector and observability backends"
+docker-compose -f "otel-collector-compose.yaml" up -d --build
 
-# echo "Starting a LTTng session ..."
-# lttng create --output=ctf-traces/
-# lttng enable-event -u 'opentelemetry:*'
-# lttng add-context -u -t vtid
-# lttng start
+all_executables=(
+    "benchmark-traces-simple"
+    "benchmark-traces-context-extraction"
+    "benchmark-traces-event"
+    "benchmark-traces-attribute"
+    "benchmark-traces-span-context"
+    "benchmark-traces-nested-span"
+)
+for executable in "${all_executables[@]}"; do
+    # echo "########## executable=$executable LTTNG_EXPORTER_ENABLED=OFF without lttng all events disabled ##########"
+    # "$buildir_lttng_expoter_off/$executable"
 
-echo "Starting benchmark-traces-simple ..."
-./build/benchmark-traces-simple
+    echo "########## executable=$executable LTTNG_EXPORTER_ENABLED=ON without lttng ##########"
+    "$buildir_lttng_expoter_on/$executable"
 
-echo "Starting benchmark-traces-context-extraction ..."
-./build/benchmark-traces-context-extraction
+    echo "########## executable=$executable LTTNG_EXPORTER_ENABLED=ON with lttng and all events disabled ##########"
+    echo "Starting a LTTng session ..."
+    lttng create "--output=ctf-traces/$executable/lttng-export-disabled"
+    lttng enable-channel --userspace default-channel
+    lttng start
+    echo "Starting $executable ..."
+    "$buildir_lttng_expoter_on/$executable"
+    echo "Stop LTTng session ..."
+    lttng stop
+    # echo "View traces ..."
+    # lttng view | sed 's/\(.\{400\}\).*/\1.../'
+    echo "Destroying LTTng session ..."
+    lttng destroy
 
-echo "Starting benchmark-traces-event ..."
-./build/benchmark-traces-event
+    echo "########## executable=$executable LTTNG_EXPORTER_ENABLED=ON with lttng and all events enabled ##########"
+    echo "Starting a LTTng session ..."
+    lttng create "--output=ctf-traces/$executable/lttng-export-enabled"
+    lttng enable-event -u 'opentelemetry:*'
+    lttng start
+    echo "Starting $executable ..."
+    "$buildir_lttng_expoter_on/$executable"
+    echo "Stop LTTng session ..."
+    lttng stop
+    # echo "View traces ..."
+    # lttng view | sed 's/\(.\{400\}\).*/\1.../'
+    echo "Destroying LTTng session ..."
+    lttng destroy
+done
 
-echo "Starting benchmark-traces-attribute ..."
-./build/benchmark-traces-attribute
-
-echo "Starting benchmark-traces-span-context ..."
-./build/benchmark-traces-span-context
-
-echo "Starting benchmark-traces-nested-span ..."
-./build/benchmark-traces-nested-span
-
-# echo "Stop LTTng session ..."
-# lttng stop
-
-# echo "View traces ..."
-# lttng view | sed 's/\(.\{400\}\).*/\1.../'
-
-# echo "Destroting LTTng session ..."
-# lttng destroy
+echo "Stop the collector and observability backends"
+docker-compose -f "otel-collector-compose.yaml" down
 
 echo "Done!"
