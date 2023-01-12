@@ -60,7 +60,7 @@ jobs:
           mv /tmp/.buildx-cache-new /tmp/.buildx-cache
 
       - name: Setup the collector and observability backends
-        run: docker-compose -f "otel-collector-compose" up -d --build
+        run: docker-compose -f "otel-collector-compose.yaml" up -d --build
 
       - name: Run benchmarks
         uses: addnab/docker-run-action@v3
@@ -70,4 +70,4 @@ jobs:
 
       - name: Stop containers
         if: always()
-        run: docker-compose -f "otel-collector-compose" down
+        run: docker-compose -f "otel-collector-compose.yaml" down
