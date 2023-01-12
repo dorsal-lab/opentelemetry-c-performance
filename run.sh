@@ -11,9 +11,6 @@ mkdir -p "$buildir_lttng_expoter_off"
 cmake -B "$buildir_lttng_expoter_off" -S . -D CMAKE_BUILD_TYPE=Release -D LTTNG_EXPORTER_ENABLED=OFF
 cmake --build "$buildir_lttng_expoter_off" --target all --
 
-echo "Setup the collector and observability backends"
-docker-compose -f "otel-collector-compose.yaml" up -d --build
-
 all_executables=(
     "benchmark-traces-simple"
     "benchmark-traces-context-extraction"
@@ -57,8 +54,5 @@ for executable in "${all_executables[@]}"; do
     echo "Destroying LTTng session ..."
     lttng destroy
 done
-
-echo "Stop the collector and observability backends"
-docker-compose -f "otel-collector-compose.yaml" down
 
 echo "Done!"

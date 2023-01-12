@@ -25,12 +25,6 @@ jobs:
       packages: write
 
     steps:
-      - name: Docker Compose Setup
-        uses: ndeloof/install-compose-action@v0.0.1
-        with:
-          version: v2.1.0 # defaults to 'latest'
-          legacy: true    # will also install in PATH as `docker-compose`
-
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
@@ -65,8 +59,15 @@ jobs:
           rm -rf /tmp/.buildx-cache
           mv /tmp/.buildx-cache-new /tmp/.buildx-cache
 
+      - name: Setup the collector and observability backends
+        run: docker-compose -f "otel-collector-compose" up -d --build
+
       - name: Run benchmarks
         uses: addnab/docker-run-action@v3
         with:
           image: ${{ env.IMAGE_NAME }}:latest
           run: ./run.sh
+
+      - name: Stop containers
+        if: always()
+        run: docker-compose -f "otel-collector-compose" down
