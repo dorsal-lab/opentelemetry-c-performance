@@ -1,7 +1,6 @@
 #include "utils.h"
 
 #include <assert.h>
-#include <limits.h>
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -60,7 +59,6 @@ long find_largest(const long *array, const size_t len) {
 
 double compute_median(const long *array, const size_t len) {
   long *calc_array = long_dup(array, len);
-  long tmp = 0;
 
   qsort(calc_array, len, sizeof(long), cmp);
 
@@ -75,8 +73,8 @@ double compute_median(const long *array, const size_t len) {
 
 double compute_mean(const long *array, const size_t len) {
   double mean = 0;
-  size_t i = 0;
 
+  size_t i;
   for (i = 0; i < len; ++i)
     mean += array[i];
 

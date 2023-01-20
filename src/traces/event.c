@@ -1,3 +1,13 @@
+#ifndef TRACING_ENABLED
+
+#include <stdio.h>
+int main() {
+  printf("Nothing to do");
+  return 0;
+}
+
+#else
+
 #include "utils.h"
 
 #include <opentelemetry_c.h>
@@ -32,3 +42,5 @@ int main() {
 
   return 0;
 }
+
+#endif
