@@ -1,3 +1,5 @@
+#define N_SPANS_TO_CREATE 100000
+
 #ifndef TRACING_ENABLED
 
 #include <stdio.h>
@@ -6,16 +8,14 @@ int main() {
   return 0;
 }
 
-#else
+#elif OPENTELEMETRY_C_TRACING_ENABLED
 
-#include "utils.h"
+#include "common/utils.h"
 
 #include <opentelemetry_c.h>
 
 #include <stdlib.h>
 #include <time.h>
-
-#define N_SPANS_TO_CREATE 100000
 
 int main() {
   init_tracer_provider("opentelemetry-c-performance", "0.0.1", "",
@@ -40,6 +40,97 @@ int main() {
   compute_array_stats(nano_durations, N_SPANS_TO_CREATE, &stats);
   print_array_stats(&stats, "us");
 
+  return 0;
+}
+
+#else
+#include "common/telemetry_data_tracepoint.h"
+#include "common/utils.h"
+
+#include <time.h>
+
+void log_telemetry_data() {
+  char telemetry_data[] =
+      "resource {\n"
+      "  attributes {\n"
+      "    key: \"telemetry.sdk.version\"\n"
+      "    value {\n"
+      "      string_value: \"1.8.1\"\n"
+      "    }\n"
+      "  }\n"
+      "  attributes {\n"
+      "    key: \"telemetry.sdk.language\"\n"
+      "    value {\n"
+      "      string_value: \"cpp\"\n"
+      "    }\n"
+      "  }\n"
+      "  attributes {\n"
+      "    key: \"telemetry.sdk.name\"\n"
+      "    value {\n"
+      "      string_value: \"opentelemetry\"\n"
+      "    }\n"
+      "  }\n"
+      "  attributes {\n"
+      "    key: \"service.instance.id\"\n"
+      "    value {\n"
+      "      string_value: \"machine-0.0.1\"\n"
+      "    }\n"
+      "  }\n"
+      "  attributes {\n"
+      "    key: \"service.namespace\"\n"
+      "    value {\n"
+      "      string_value: \"\"\n"
+      "    }\n"
+      "  }\n"
+      "  attributes {\n"
+      "    key: \"service.version\"\n"
+      "    value {\n"
+      "      string_value: \"0.0.1\"\n"
+      "    }\n"
+      "  }\n"
+      "  attributes {\n"
+      "    key: \"service.name\"\n"
+      "    value {\n"
+      "      string_value: \"opentelemetry-c-performance\"\n"
+      "    }\n"
+      "  }\n"
+      "}\n"
+      "scope_spans {\n"
+      "  scope {\n"
+      "    name: \"opentelemetry-c\"\n"
+      "    version: \"1.8.1\"\n"
+      "  }\n"
+      "  spans {\n"
+      "    trace_id: "
+      "\"\\203\\031\\313\\236\\025\\361L\\242\\257\\200\\031"
+      "\\003\\333\\240\\206\\203\"\n"
+      "    span_id: \"\\202\\330Xez\\323\\371\\333\"\n"
+      "    name: \"span\"\n"
+      "    kind: SPAN_KIND_INTERNAL\n"
+      "    start_time_unix_nano: 1674508978379293122\n"
+      "    end_time_unix_nano: 1674508978379311683\n"
+      "    events {\n"
+      "      time_unix_nano: 1674508978379305899\n"
+      "      name: \"test-event\"\n"
+      "    }\n"
+      "  }\n"
+      "}";
+  lttng_ust_tracepoint(opentelemetry_c_performance, telemetry_data,
+                       telemetry_data);
+}
+
+int main() {
+  long nano_durations[N_SPANS_TO_CREATE];
+  struct timespec start, end;
+  for (int i = 0; i < N_SPANS_TO_CREATE; i++) {
+    clock_gettime(CLOCK_MONOTONIC_RAW, &start);
+    log_telemetry_data();
+    clock_gettime(CLOCK_MONOTONIC_RAW, &end);
+    nano_durations[i] = timespec_diff(start, end).tv_nsec / 1000;
+  }
+  struct array_stats_t stats;
+  compute_array_stats(nano_durations, N_SPANS_TO_CREATE, &stats);
+  print_array_stats(&stats, "us");
   return 0;
 }
 
