@@ -23,16 +23,23 @@ int main() {
 
   void *tracer = get_tracer();
 
+  void *remote_span = start_span(tracer, "span", SPAN_KIND_INTERNAL, "");
+  char *remote_span_ctx = extract_context_from_current_span(remote_span);
+  end_span(remote_span);
+
   long long nano_durations[N_SPANS_TO_CREATE];
   struct timespec start, end;
   for (int i = 0; i < N_SPANS_TO_CREATE; i++) {
     clock_gettime(CLOCK_MONOTONIC_RAW, &start);
-    void *span = start_span(tracer, "span", SPAN_KIND_INTERNAL, "");
+    void *span =
+        start_span(tracer, "span", SPAN_KIND_INTERNAL, remote_span_ctx);
     end_span(span);
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
     struct timespec duration = timespec_diff(start, end);
     nano_durations[i] = (1000000000LL * duration.tv_sec + duration.tv_nsec);
   }
+
+  free(remote_span_ctx);
 
   struct array_stats_t stats;
   compute_array_stats(nano_durations, N_SPANS_TO_CREATE, &stats);
@@ -49,6 +56,7 @@ int main() {
 
 void log_telemetry_data() {
   char telemetry_data[] =
+      "Debug resource spans :\n"
       "resource {\n"
       "  attributes {\n"
       "    key: \"telemetry.sdk.version\"\n"
@@ -100,14 +108,15 @@ void log_telemetry_data() {
       "  }\n"
       "  spans {\n"
       "    trace_id: "
-      "\"\\203\\341\\232+\\372\\347\\352\\351t\\233\\005|\\'V\\272\\340\"\n"
-      "    span_id: \"\\315\\024\\257\\366m\\264,\\276\"\n"
+      "\"\\311`\\024Gv\\256\\217\\251\\006\\034\\370\\224\\033\\223?R\"\n"
+      "    span_id: \"\\323\\002.\\0238r$\\241\"\n"
+      "    parent_span_id: \"I_\\'\\227=\\334$\\366\"\n"
       "    name: \"span\"\n"
       "    kind: SPAN_KIND_INTERNAL\n"
-      "    start_time_unix_nano: 1674509173187489380\n"
-      "    end_time_unix_nano: 1674509173187494550\n"
+      "    start_time_unix_nano: 1674508639943852253\n"
+      "    end_time_unix_nano: 1674508639943857211\n"
       "  }\n"
-      "}\n";
+      "}";
   lttng_ust_tracepoint(opentelemetry_c_performance, telemetry_data,
                        telemetry_data);
 }

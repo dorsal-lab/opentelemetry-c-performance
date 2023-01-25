@@ -33,7 +33,7 @@ int64_t counter_callback() { return 0; }
 int main() {
   struct timespec start, end;
   init_metrics_provider("opentelemetry-c-performance", "0.0.1", "",
-                        "machine-0.0.1", 500, 250);
+                        "machine-0.0.1", 1000, 500);
   void *counter = create_int64_observable_up_down_counter("example-counter",
                                                           "description...");
   void *registration = int64_observable_up_down_counter_register_callback(
@@ -130,8 +130,8 @@ void log_telemetry_data() {
 void *counter_routine(void *arg) {
   int *thread_running = (int *)arg;
   struct timespec ts;
-  ts.tv_sec = 0;
-  ts.tv_nsec = 500000000;
+  ts.tv_sec = 1;
+  ts.tv_nsec = 0;
   while (*thread_running) {
     log_telemetry_data();
     nanosleep(&ts, NULL);

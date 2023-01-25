@@ -6,17 +6,17 @@
 struct timespec timespec_diff(struct timespec start, struct timespec end);
 
 struct array_stats_t {
-  long first;
-  long second;
-  long third;
-  long min;
-  long max;
+  long long first;
+  long long second;
+  long long third;
+  long long min;
+  long long max;
   double median;
   double mean;
   double std;
 };
 
-void compute_array_stats(const long *array, const size_t len,
+void compute_array_stats(const long long *array, const size_t len,
                          struct array_stats_t *stats);
 
 void print_array_stats(const struct array_stats_t *stats, const char *unit);

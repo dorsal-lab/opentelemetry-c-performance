@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 int main() {
-  printf("Nothing to do");
+  printf("Nothing to do\n");
   return 0;
 }
 
@@ -28,6 +28,8 @@ int main() {
   for (int i = 0; i < N_SPANS_TO_CREATE; i++) {
     clock_gettime(CLOCK_MONOTONIC_RAW, &start);
     void *span = start_span(tracer, "span", SPAN_KIND_INTERNAL, "");
+    char *span_ctx = extract_context_from_current_span(span);
+    free(span_ctx);
     end_span(span);
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
     struct timespec duration = timespec_diff(start, end);
@@ -100,14 +102,14 @@ void log_telemetry_data() {
       "  }\n"
       "  spans {\n"
       "    trace_id: "
-      "\"\\203\\341\\232+\\372\\347\\352\\351t\\233\\005|\\'V\\272\\340\"\n"
-      "    span_id: \"\\315\\024\\257\\366m\\264,\\276\"\n"
+      "\"\\357\\244\\373c\\027\\217>\\320\\343\\2355\\216w5E\\254\"\n"
+      "    span_id: \"\\037\\263\\246#4K\\333\\t\"\n"
       "    name: \"span\"\n"
       "    kind: SPAN_KIND_INTERNAL\n"
-      "    start_time_unix_nano: 1674509173187489380\n"
-      "    end_time_unix_nano: 1674509173187494550\n"
+      "    start_time_unix_nano: 1674508928599687217\n"
+      "    end_time_unix_nano: 1674508928599696194\n"
       "  }\n"
-      "}\n";
+      "}";
   lttng_ust_tracepoint(opentelemetry_c_performance, telemetry_data,
                        telemetry_data);
 }

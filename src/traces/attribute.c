@@ -22,7 +22,7 @@ int main() {
 
   void *tracer = get_tracer();
 
-  long nano_durations[N_SPANS_TO_CREATE];
+  long long nano_durations[N_SPANS_TO_CREATE];
   struct timespec start, end;
   for (int i = 0; i < N_SPANS_TO_CREATE; i++) {
     clock_gettime(CLOCK_MONOTONIC_RAW, &start);
@@ -33,12 +33,13 @@ int main() {
     destroy_attr_map(map);
     end_span(span);
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
-    nano_durations[i] = timespec_diff(start, end).tv_nsec / 1000;
+    struct timespec duration = timespec_diff(start, end);
+    nano_durations[i] = (1000000000LL * duration.tv_sec + duration.tv_nsec);
   }
 
   struct array_stats_t stats;
   compute_array_stats(nano_durations, N_SPANS_TO_CREATE, &stats);
-  print_array_stats(&stats, "us");
+  print_array_stats(&stats, "ns");
 
   return 0;
 }
@@ -123,17 +124,18 @@ void log_telemetry_data() {
 }
 
 int main() {
-  long nano_durations[N_SPANS_TO_CREATE];
+  long long nano_durations[N_SPANS_TO_CREATE];
   struct timespec start, end;
   for (int i = 0; i < N_SPANS_TO_CREATE; i++) {
     clock_gettime(CLOCK_MONOTONIC_RAW, &start);
     log_telemetry_data();
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
-    nano_durations[i] = timespec_diff(start, end).tv_nsec / 1000;
+    struct timespec duration = timespec_diff(start, end);
+    nano_durations[i] = (1000000000LL * duration.tv_sec + duration.tv_nsec);
   }
   struct array_stats_t stats;
   compute_array_stats(nano_durations, N_SPANS_TO_CREATE, &stats);
-  print_array_stats(&stats, "us");
+  print_array_stats(&stats, "ns");
   return 0;
 }
 

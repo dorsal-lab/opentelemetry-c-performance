@@ -19,22 +19,22 @@ struct timespec timespec_diff(struct timespec start, struct timespec end) {
 }
 
 int cmp(void const *lhs, void const *rhs) {
-  const long diff = *((const long *)lhs) - *((const long *)rhs);
+  const long long diff = *((const long long *)lhs) - *((const long long *)rhs);
   return diff == 0 ? 0 : (diff < 0 ? -1 : 1);
 }
 
-long *long_dup(const long *source, const size_t len) {
-  long *p = malloc(len * sizeof(long));
+long long *long_long_dup(const long long *source, const size_t len) {
+  long long *p = malloc(len * sizeof(long long));
 
   if (p == NULL)
     exit(1);
 
-  memcpy(p, source, len * sizeof(long));
+  memcpy(p, source, len * sizeof(long long));
   return p;
 }
 
-long find_smallest(const long *array, const size_t len) {
-  long smallest = array[0];
+long long find_smallest(const long long *array, const size_t len) {
+  long long smallest = array[0];
 
   size_t i;
   for (i = 1; i < len; ++i) {
@@ -45,8 +45,8 @@ long find_smallest(const long *array, const size_t len) {
   return smallest;
 }
 
-long find_largest(const long *array, const size_t len) {
-  long largest = array[0];
+long long find_largest(const long long *array, const size_t len) {
+  long long largest = array[0];
 
   size_t i;
   for (i = 1; i < len; ++i) {
@@ -57,10 +57,10 @@ long find_largest(const long *array, const size_t len) {
   return largest;
 }
 
-double compute_median(const long *array, const size_t len) {
-  long *calc_array = long_dup(array, len);
+double compute_median(const long long *array, const size_t len) {
+  long long *calc_array = long_long_dup(array, len);
 
-  qsort(calc_array, len, sizeof(long), cmp);
+  qsort(calc_array, len, sizeof(long long), cmp);
 
   if (len % 2 == 0) { // is even
     // return the arithmetic middle of the two middle values
@@ -71,7 +71,7 @@ double compute_median(const long *array, const size_t len) {
   }
 }
 
-double compute_mean(const long *array, const size_t len) {
+double compute_mean(const long long *array, const size_t len) {
   double mean = 0;
 
   size_t i;
@@ -81,7 +81,7 @@ double compute_mean(const long *array, const size_t len) {
   return mean / len;
 }
 
-double compute_variance(const long *array, const size_t len,
+double compute_variance(const long long *array, const size_t len,
                         const double mean) {
   if (len < 1)
     return 0.0;
@@ -93,11 +93,12 @@ double compute_variance(const long *array, const size_t len,
   return variance / len;
 }
 
-double compute_std(const long *array, const size_t len, const double mean) {
+double compute_std(const long long *array, const size_t len,
+                   const double mean) {
   return sqrt(compute_variance(array, len, mean));
 }
 
-void compute_array_stats(const long *array, const size_t len,
+void compute_array_stats(const long long *array, const size_t len,
                          struct array_stats_t *stats) {
   assert(array);
   assert(len >= 3);
@@ -112,11 +113,11 @@ void compute_array_stats(const long *array, const size_t len,
 }
 
 void print_array_stats(const struct array_stats_t *stats, const char *unit) {
-  printf("first = %ld %s\n", stats->first, unit);
-  printf("second = %ld %s\n", stats->second, unit);
-  printf("third = %ld %s\n", stats->third, unit);
-  printf("min = %ld %s\n", stats->min, unit);
-  printf("max = %ld %s\n", stats->max, unit);
+  printf("first = %lld %s\n", stats->first, unit);
+  printf("second = %lld %s\n", stats->second, unit);
+  printf("third = %lld %s\n", stats->third, unit);
+  printf("min = %lld %s\n", stats->min, unit);
+  printf("max = %lld %s\n", stats->max, unit);
   printf("median = %lf %s\n", stats->median, unit);
   printf("mean = %lf %s\n", stats->mean, unit);
   printf("std = %lf %s\n", stats->std, unit);

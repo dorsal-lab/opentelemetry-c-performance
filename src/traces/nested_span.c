@@ -26,12 +26,14 @@ int main() {
   long long nano_durations[N_SPANS_TO_CREATE];
   struct timespec start, end;
   for (int i = 0; i < N_SPANS_TO_CREATE; i++) {
+    void *outer_span = start_span(tracer, "outer-span", SPAN_KIND_INTERNAL, "");
     clock_gettime(CLOCK_MONOTONIC_RAW, &start);
     void *span = start_span(tracer, "span", SPAN_KIND_INTERNAL, "");
     end_span(span);
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
     struct timespec duration = timespec_diff(start, end);
     nano_durations[i] = (1000000000LL * duration.tv_sec + duration.tv_nsec);
+    end_span(outer_span);
   }
 
   struct array_stats_t stats;
@@ -100,14 +102,17 @@ void log_telemetry_data() {
       "  }\n"
       "  spans {\n"
       "    trace_id: "
-      "\"\\203\\341\\232+\\372\\347\\352\\351t\\233\\005|\\'V\\272\\340\"\n"
-      "    span_id: \"\\315\\024\\257\\366m\\264,\\276\"\n"
+      "\"\\341\\352\\235\\000\\311\\203\\314A\\355\\337\\372\\333j\\027\\214\\0"
+      "26"
+      "\"\n"
+      "    span_id: \"J\\232\\017V\\3567?1\"\n"
+      "    parent_span_id: \"\\304\\253Z\\204\\010\\257~\\257\"\n"
       "    name: \"span\"\n"
       "    kind: SPAN_KIND_INTERNAL\n"
-      "    start_time_unix_nano: 1674509173187489380\n"
-      "    end_time_unix_nano: 1674509173187494550\n"
+      "    start_time_unix_nano: 1674509109471406947\n"
+      "    end_time_unix_nano: 1674509109471410827\n"
       "  }\n"
-      "}\n";
+      "}";
   lttng_ust_tracepoint(opentelemetry_c_performance, telemetry_data,
                        telemetry_data);
 }
