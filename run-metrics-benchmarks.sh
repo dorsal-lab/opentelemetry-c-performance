@@ -32,7 +32,7 @@ cmake -B "$build_dir_lttng_exporter_off" -S . \
   -D LTTNG_EXPORTER_ENABLED=OFF
 cmake --build "$build_dir_lttng_exporter_off" --target all --
 
-n=1 # n = number of run per executable
+n=10 # n = number of run per executable
 
 all_executables=(
   "benchmark-metrics-observable-up-down-counter-500"
