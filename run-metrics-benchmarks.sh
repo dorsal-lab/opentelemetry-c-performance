@@ -72,13 +72,17 @@ for executable in "${all_executables[@]}"; do
 
   for i in $(seq 1 $n); do
     echo "########## Run no $i executable=$executable TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########"
-    "$build_dir_lttng_exporter_off/$executable"
+    if curl "http://localhost:13133/" | grep -q "Server available"; then
+      OTEL_EXPORTER_OTLP_METRICS_ENDPOINT="http://localhost:4317/" "$build_dir_lttng_exporter_off/$executable"
+    else
+      echo "Local collector not responding"
+    fi
   done
 
   # Run benchmark with remote collector only if available
   for i in $(seq 1 $n); do
     echo "########## Run no $i executable=$executable TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########"
-    if curl http://otel-collector-vm.aka.fyty.app:13133/ | grep -q "Server available"; then
+    if curl "http://otel-collector-vm.aka.fyty.app:13133/" | grep -q "Server available"; then
       OTEL_EXPORTER_OTLP_METRICS_ENDPOINT="http://otel-collector-vm.aka.fyty.app:4317" "$build_dir_lttng_exporter_off/$executable"
     else
       echo "Remote collector not responding"
