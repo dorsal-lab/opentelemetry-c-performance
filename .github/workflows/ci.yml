@@ -62,11 +62,40 @@ jobs:
       - name: Setup the collector and observability backends
         run: docker-compose -f "otel-collector-compose.yaml" up -d --build
 
-      - name: Run benchmarks
+      - name: Build benchmarks
         uses: addnab/docker-run-action@v3
         with:
           image: ${{ env.IMAGE_NAME }}:latest
-          run: ./run.sh
+          run: |
+            build_dir_tracing_off=/tmp/build_dir_tracing_off
+            mkdir -p "$build_dir_tracing_off"
+            cmake -B "$build_dir_tracing_off" -S . \
+              -D CMAKE_BUILD_TYPE=Release \
+              -D TRACING_ENABLED=OFF
+            cmake --build "$build_dir_tracing_off" --target all --
+            build_dir_opentelemetry_off=/tmp/build_dir_opentelemetry_off
+            mkdir -p "$build_dir_opentelemetry_off"
+            cmake -B "$build_dir_opentelemetry_off" -S . \
+              -D CMAKE_BUILD_TYPE=Release \
+              -D TRACING_ENABLED=ON \
+              -D OPENTELEMETRY_C_TRACING_ENABLED=OFF
+            cmake --build "$build_dir_opentelemetry_off" --target all --
+            build_dir_lttng_exporter_on=/tmp/build_dir_lttng_exporter_on
+            mkdir -p "$build_dir_lttng_exporter_on"
+            cmake -B "$build_dir_lttng_exporter_on" -S . \
+              -D CMAKE_BUILD_TYPE=Release \
+              -D TRACING_ENABLED=ON \
+              -D OPENTELEMETRY_C_TRACING_ENABLED=ON \
+              -D LTTNG_EXPORTER_ENABLED=ON
+            cmake --build "$build_dir_lttng_exporter_on" --target all --
+            build_dir_lttng_exporter_off=/tmp/build_dir_lttng_exporter_off
+            mkdir -p "$build_dir_lttng_exporter_off"
+            cmake -B "$build_dir_lttng_exporter_off" -S . \
+              -D CMAKE_BUILD_TYPE=Release \
+              -D TRACING_ENABLED=ON \
+              -D OPENTELEMETRY_C_TRACING_ENABLED=ON \
+              -D LTTNG_EXPORTER_ENABLED=OFF
+            cmake --build "$build_dir_lttng_exporter_off" --target all --
 
       - name: Stop containers
         if: always()

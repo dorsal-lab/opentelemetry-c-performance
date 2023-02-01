@@ -81,6 +81,16 @@ double compute_mean(const long long *array, const size_t len) {
   return mean / len;
 }
 
+long long compute_sum(const long long *array, const size_t len) {
+  long long sum = 0;
+
+  size_t i;
+  for (i = 0; i < len; ++i)
+    sum += array[i];
+
+  return sum;
+}
+
 double compute_variance(const long long *array, const size_t len,
                         const double mean) {
   if (len < 1)
@@ -110,15 +120,19 @@ void compute_array_stats(const long long *array, const size_t len,
   stats->median = compute_median(array, len);
   stats->mean = compute_mean(array, len);
   stats->std = compute_std(array, len, stats->mean);
+  stats->sum = compute_sum(array, len);
+  stats->len = len;
 }
 
 void print_array_stats(const struct array_stats_t *stats, const char *unit) {
+  printf("min = %lld %s\n", stats->min, unit);
+  printf("mean = %lf %s\n", stats->mean, unit);
+  printf("max = %lld %s\n", stats->max, unit);
+  printf("median = %lf %s\n", stats->median, unit);
+  printf("std = %lf %s\n", stats->std, unit);
+  printf("sum = %lld %s\n", stats->sum, unit);
   printf("first = %lld %s\n", stats->first, unit);
   printf("second = %lld %s\n", stats->second, unit);
   printf("third = %lld %s\n", stats->third, unit);
-  printf("min = %lld %s\n", stats->min, unit);
-  printf("max = %lld %s\n", stats->max, unit);
-  printf("median = %lf %s\n", stats->median, unit);
-  printf("mean = %lf %s\n", stats->mean, unit);
-  printf("std = %lf %s\n", stats->std, unit);
+  printf("len = %ld\n", stats->len);
 }

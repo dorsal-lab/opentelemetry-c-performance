@@ -1,10 +1,8 @@
-#define N_SPANS_TO_CREATE 100000
-
 #ifndef TRACING_ENABLED
 
 #include <stdio.h>
 int main() {
-  printf("Nothing to do");
+  printf("Nothing to do\n");
   return 0;
 }
 
@@ -14,6 +12,7 @@ int main() {
 
 #include <opentelemetry_c.h>
 
+#include <stdlib.h>
 #include <time.h>
 
 int main() {
@@ -22,7 +21,7 @@ int main() {
 
   void *tracer = get_tracer();
 
-  long long nano_durations[N_SPANS_TO_CREATE];
+  long long *nano_durations = malloc(N_SPANS_TO_CREATE * sizeof(long long));
   struct timespec start, end;
   for (int i = 0; i < N_SPANS_TO_CREATE; i++) {
     clock_gettime(CLOCK_MONOTONIC_RAW, &start);
@@ -40,6 +39,7 @@ int main() {
   struct array_stats_t stats;
   compute_array_stats(nano_durations, N_SPANS_TO_CREATE, &stats);
   print_array_stats(&stats, "ns");
+  free(nano_durations);
 
   return 0;
 }
@@ -124,7 +124,7 @@ void log_telemetry_data() {
 }
 
 int main() {
-  long long nano_durations[N_SPANS_TO_CREATE];
+  long long *nano_durations = malloc(N_SPANS_TO_CREATE * sizeof(long long));
   struct timespec start, end;
   for (int i = 0; i < N_SPANS_TO_CREATE; i++) {
     clock_gettime(CLOCK_MONOTONIC_RAW, &start);
@@ -136,6 +136,7 @@ int main() {
   struct array_stats_t stats;
   compute_array_stats(nano_durations, N_SPANS_TO_CREATE, &stats);
   print_array_stats(&stats, "ns");
+  free(nano_durations);
   return 0;
 }
 

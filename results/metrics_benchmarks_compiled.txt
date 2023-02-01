@@ -1,0 +1,5 @@
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled
+duration = 120398506762.9
+
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled
+duration = 120432623374.2

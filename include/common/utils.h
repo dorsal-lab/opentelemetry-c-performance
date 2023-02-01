@@ -11,9 +11,11 @@ struct array_stats_t {
   long long third;
   long long min;
   long long max;
+  long long sum;
   double median;
   double mean;
   double std;
+  size_t len;
 };
 
 void compute_array_stats(const long long *array, const size_t len,

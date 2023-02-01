@@ -1,0 +1,1578 @@
+#######################################################################
+# Metrics benchmarks
+#######################################################################
+Building all targets ...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/build_dir_tracing_off
+Consolidate compiler generated dependencies of target benchmark-traces-simple
+[ 12%] Built target benchmark-traces-simple
+Consolidate compiler generated dependencies of target benchmark-traces-context-extraction
+[ 25%] Built target benchmark-traces-context-extraction
+Consolidate compiler generated dependencies of target benchmark-traces-event
+[ 37%] Built target benchmark-traces-event
+Consolidate compiler generated dependencies of target benchmark-traces-attribute
+[ 50%] Built target benchmark-traces-attribute
+Consolidate compiler generated dependencies of target benchmark-traces-span-context
+[ 62%] Built target benchmark-traces-span-context
+Consolidate compiler generated dependencies of target benchmark-traces-nested-span
+[ 75%] Built target benchmark-traces-nested-span
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-500
+[ 87%] Built target benchmark-metrics-observable-up-down-counter-500
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-1000
+[100%] Built target benchmark-metrics-observable-up-down-counter-1000
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/build_dir_opentelemetry_off
+Consolidate compiler generated dependencies of target benchmark-traces-simple
+[ 12%] Built target benchmark-traces-simple
+Consolidate compiler generated dependencies of target benchmark-traces-context-extraction
+[ 25%] Built target benchmark-traces-context-extraction
+Consolidate compiler generated dependencies of target benchmark-traces-event
+[ 37%] Built target benchmark-traces-event
+Consolidate compiler generated dependencies of target benchmark-traces-attribute
+[ 50%] Built target benchmark-traces-attribute
+Consolidate compiler generated dependencies of target benchmark-traces-span-context
+[ 62%] Built target benchmark-traces-span-context
+Consolidate compiler generated dependencies of target benchmark-traces-nested-span
+[ 75%] Built target benchmark-traces-nested-span
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-500
+[ 87%] Built target benchmark-metrics-observable-up-down-counter-500
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-1000
+[100%] Built target benchmark-metrics-observable-up-down-counter-1000
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/build_dir_lttng_exporter_on
+Consolidate compiler generated dependencies of target opentelemetry-c
+[ 22%] Built target opentelemetry-c
+Consolidate compiler generated dependencies of target benchmark-traces-simple
+[ 25%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/traces/simple.c.o
+[ 29%] Linking CXX executable benchmark-traces-simple
+[ 32%] Built target benchmark-traces-simple
+Consolidate compiler generated dependencies of target benchmark-traces-context-extraction
+[ 35%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/traces/context_extraction.c.o
+[ 38%] Linking CXX executable benchmark-traces-context-extraction
+[ 41%] Built target benchmark-traces-context-extraction
+Consolidate compiler generated dependencies of target benchmark-traces-event
+[ 45%] Building C object CMakeFiles/benchmark-traces-event.dir/src/traces/event.c.o
+[ 48%] Linking CXX executable benchmark-traces-event
+[ 51%] Built target benchmark-traces-event
+Consolidate compiler generated dependencies of target benchmark-traces-attribute
+[ 54%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/traces/attribute.c.o
+[ 58%] Linking CXX executable benchmark-traces-attribute
+[ 61%] Built target benchmark-traces-attribute
+Consolidate compiler generated dependencies of target benchmark-traces-span-context
+[ 64%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/traces/span_context.c.o
+[ 67%] Linking CXX executable benchmark-traces-span-context
+[ 70%] Built target benchmark-traces-span-context
+Consolidate compiler generated dependencies of target benchmark-traces-nested-span
+[ 74%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/traces/nested_span.c.o
+[ 77%] Linking CXX executable benchmark-traces-nested-span
+[ 80%] Built target benchmark-traces-nested-span
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-500
+[ 83%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/metrics/observable_up_down_counter_500.c.o
+[ 87%] Linking CXX executable benchmark-metrics-observable-up-down-counter-500
+[ 90%] Built target benchmark-metrics-observable-up-down-counter-500
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-1000
+[ 93%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/metrics/observable_up_down_counter_1000.c.o
+[ 96%] Linking CXX executable benchmark-metrics-observable-up-down-counter-1000
+[100%] Built target benchmark-metrics-observable-up-down-counter-1000
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/build_dir_lttng_exporter_off
+Consolidate compiler generated dependencies of target opentelemetry-c
+[ 14%] Built target opentelemetry-c
+Consolidate compiler generated dependencies of target benchmark-traces-simple
+[ 17%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/traces/simple.c.o
+[ 21%] Linking CXX executable benchmark-traces-simple
+[ 25%] Built target benchmark-traces-simple
+Consolidate compiler generated dependencies of target benchmark-traces-context-extraction
+[ 28%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/traces/context_extraction.c.o
+[ 32%] Linking CXX executable benchmark-traces-context-extraction
+[ 35%] Built target benchmark-traces-context-extraction
+Consolidate compiler generated dependencies of target benchmark-traces-event
+[ 39%] Building C object CMakeFiles/benchmark-traces-event.dir/src/traces/event.c.o
+[ 42%] Linking CXX executable benchmark-traces-event
+[ 46%] Built target benchmark-traces-event
+Consolidate compiler generated dependencies of target benchmark-traces-attribute
+[ 50%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/traces/attribute.c.o
+[ 53%] Linking CXX executable benchmark-traces-attribute
+[ 57%] Built target benchmark-traces-attribute
+Consolidate compiler generated dependencies of target benchmark-traces-span-context
+[ 60%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/traces/span_context.c.o
+[ 64%] Linking CXX executable benchmark-traces-span-context
+[ 67%] Built target benchmark-traces-span-context
+Consolidate compiler generated dependencies of target benchmark-traces-nested-span
+[ 71%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/traces/nested_span.c.o
+[ 75%] Linking CXX executable benchmark-traces-nested-span
+[ 78%] Built target benchmark-traces-nested-span
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-500
+[ 82%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/metrics/observable_up_down_counter_500.c.o
+[ 85%] Linking CXX executable benchmark-metrics-observable-up-down-counter-500
+[ 89%] Built target benchmark-metrics-observable-up-down-counter-500
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-1000
+[ 92%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/metrics/observable_up_down_counter_1000.c.o
+[ 96%] Linking CXX executable benchmark-metrics-observable-up-down-counter-1000
+[100%] Built target benchmark-metrics-observable-up-down-counter-1000
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 118180800695 ns
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 118572019486 ns
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 118862168109 ns
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 118771903313 ns
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 119795832152 ns
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120135025878 ns
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 119998711425 ns
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 119915052920 ns
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120023699992 ns
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120130188306 ns
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120269783101 ns
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120427819519 ns
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120079627596 ns
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 119735676141 ns
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120230164917 ns
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120276176618 ns
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120189079991 ns
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120073180927 ns
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120085194077 ns
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120124868307 ns
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-193402 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-193402
+ust channel default-channel enabled for session auto-20230125-193402
+Tracing started for session auto-20230125-193402
+Starting program execution...
+Program execution ends
+duration = 120110610764 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-193402
+Destroying session auto-20230125-193402..
+Session auto-20230125-193402 destroyed
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-193603 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-193603
+ust channel default-channel enabled for session auto-20230125-193603
+Tracing started for session auto-20230125-193603
+Starting program execution...
+Program execution ends
+duration = 120121701015 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-193603
+Destroying session auto-20230125-193603..
+Session auto-20230125-193603 destroyed
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-193805 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-193805
+ust channel default-channel enabled for session auto-20230125-193805
+Tracing started for session auto-20230125-193805
+Starting program execution...
+Program execution ends
+duration = 120145755490 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-193805
+Destroying session auto-20230125-193805..
+Session auto-20230125-193805 destroyed
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-194006 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-194006
+ust channel default-channel enabled for session auto-20230125-194006
+Tracing started for session auto-20230125-194006
+Starting program execution...
+Program execution ends
+duration = 120152599002 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-194006
+Destroying session auto-20230125-194006..
+Session auto-20230125-194006 destroyed
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-194208 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-194208
+ust channel default-channel enabled for session auto-20230125-194208
+Tracing started for session auto-20230125-194208
+Starting program execution...
+Program execution ends
+duration = 120094505743 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-194208
+Destroying session auto-20230125-194208..
+Session auto-20230125-194208 destroyed
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-194410 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-194410
+ust channel default-channel enabled for session auto-20230125-194410
+Tracing started for session auto-20230125-194410
+Starting program execution...
+Program execution ends
+duration = 120323554803 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-194410
+Destroying session auto-20230125-194410..
+Session auto-20230125-194410 destroyed
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-194611 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-194611
+ust channel default-channel enabled for session auto-20230125-194611
+Tracing started for session auto-20230125-194611
+Starting program execution...
+Program execution ends
+duration = 120287878515 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-194611
+Destroying session auto-20230125-194611..
+Session auto-20230125-194611 destroyed
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-194813 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-194813
+ust channel default-channel enabled for session auto-20230125-194813
+Tracing started for session auto-20230125-194813
+Starting program execution...
+Program execution ends
+duration = 120212342500 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-194813
+Destroying session auto-20230125-194813..
+Session auto-20230125-194813 destroyed
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-195014 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-195014
+ust channel default-channel enabled for session auto-20230125-195014
+Tracing started for session auto-20230125-195014
+Starting program execution...
+Program execution ends
+duration = 120310511360 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-195014
+Destroying session auto-20230125-195014..
+Session auto-20230125-195014 destroyed
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-195216 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-195216
+ust channel default-channel enabled for session auto-20230125-195216
+Tracing started for session auto-20230125-195216
+Starting program execution...
+Program execution ends
+duration = 120242322365 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-195216
+Destroying session auto-20230125-195216..
+Session auto-20230125-195216 destroyed
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-195417 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-500/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-195417
+Starting program execution...
+Program execution ends
+duration = 120415366598 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-195417
+Destroying session auto-20230125-195417..
+Session auto-20230125-195417 destroyed
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-195619 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-500/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-195619
+Starting program execution...
+Program execution ends
+duration = 120483870558 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-195619
+Destroying session auto-20230125-195619..
+Session auto-20230125-195619 destroyed
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-195820 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-500/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-195820
+Starting program execution...
+Program execution ends
+duration = 120337747303 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-195820
+Destroying session auto-20230125-195820..
+Session auto-20230125-195820 destroyed
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-200022 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-500/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-200022
+Starting program execution...
+Program execution ends
+duration = 120517827242 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-200022
+Destroying session auto-20230125-200022..
+Session auto-20230125-200022 destroyed
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-200223 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-500/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-200223
+Starting program execution...
+Program execution ends
+duration = 120126215089 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-200223
+Destroying session auto-20230125-200223..
+Session auto-20230125-200223 destroyed
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-200425 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-500/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-200425
+Starting program execution...
+Program execution ends
+duration = 120180625144 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-200425
+Destroying session auto-20230125-200425..
+Session auto-20230125-200425 destroyed
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-200626 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-500/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-200626
+Starting program execution...
+Program execution ends
+duration = 120308560668 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-200626
+Destroying session auto-20230125-200626..
+Session auto-20230125-200626 destroyed
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-200828 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-500/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-200828
+Starting program execution...
+Program execution ends
+duration = 120246265867 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-200828
+Destroying session auto-20230125-200828..
+Session auto-20230125-200828 destroyed
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-201029 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-500/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-201029
+Starting program execution...
+Program execution ends
+duration = 120121735972 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-201029
+Destroying session auto-20230125-201029..
+Session auto-20230125-201029 destroyed
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-201231 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-500/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-201231
+Starting program execution...
+Program execution ends
+duration = 119666516800 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-201231
+Destroying session auto-20230125-201231..
+Session auto-20230125-201231 destroyed
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 121038372053 ns
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120901893204 ns
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120920965606 ns
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120793846032 ns
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 121111255886 ns
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120938860515 ns
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 121299466317 ns
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 121154772951 ns
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 121170686991 ns
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 121118350361 ns
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0   1260      0 --:--:-- --:--:-- --:--:--  1268
+Starting program execution...
+Program execution ends
+duration = 121126956496 ns
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0  30373      0 --:--:-- --:--:-- --:--:-- 34666
+Starting program execution...
+Program execution ends
+duration = 121167454644 ns
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0  25603      0 --:--:-- --:--:-- --:--:-- 26000
+Starting program execution...
+Program execution ends
+duration = 121235203415 ns
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0   1334      0 --:--:-- --:--:-- --:--:--  1350
+Starting program execution...
+Program execution ends
+duration = 120802412435 ns
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0  23625      0 --:--:-- --:--:-- --:--:-- 26000
+Starting program execution...
+Program execution ends
+duration = 120873989118 ns
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0   1566      0 --:--:-- --:--:-- --:--:--  1575
+Starting program execution...
+Program execution ends
+duration = 121196264572 ns
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0   1250      0 --:--:-- --:--:-- --:--:--  1238
+Starting program execution...
+Program execution ends
+duration = 121066269451 ns
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   103  100   103    0     0  24706      0 --:--:-- --:--:-- --:--:-- 25750
+Starting program execution...
+Program execution ends
+duration = 120994921718 ns
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0  20452      0 --:--:-- --:--:-- --:--:-- 20800
+Starting program execution...
+Program execution ends
+duration = 120985991256 ns
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0   1357      0 --:--:-- --:--:-- --:--:--  1368
+Starting program execution...
+Program execution ends
+duration = 121039592553 ns
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120226525200 ns
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120334157303 ns
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120039983540 ns
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120271204952 ns
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 119866403920 ns
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120326181583 ns
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120015594557 ns
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120212051256 ns
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120149113983 ns
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120019040285 ns
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230125-211456 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-211456
+ust channel default-channel enabled for session auto-20230125-211456
+Tracing started for session auto-20230125-211456
+Starting program execution...
+Program execution ends
+duration = 120406607113 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-211456
+Destroying session auto-20230125-211456..
+Session auto-20230125-211456 destroyed
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230125-211657 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-211657
+ust channel default-channel enabled for session auto-20230125-211657
+Tracing started for session auto-20230125-211657
+Starting program execution...
+Program execution ends
+duration = 120283445051 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-211657
+Destroying session auto-20230125-211657..
+Session auto-20230125-211657 destroyed
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230125-211858 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-211858
+ust channel default-channel enabled for session auto-20230125-211858
+Tracing started for session auto-20230125-211858
+Starting program execution...
+Program execution ends
+duration = 120277963737 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-211858
+Destroying session auto-20230125-211858..
+Session auto-20230125-211858 destroyed
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230125-212100 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-212100
+ust channel default-channel enabled for session auto-20230125-212100
+Tracing started for session auto-20230125-212100
+Starting program execution...
+Program execution ends
+duration = 120345259532 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-212100
+Destroying session auto-20230125-212100..
+Session auto-20230125-212100 destroyed
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230125-212301 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-212301
+ust channel default-channel enabled for session auto-20230125-212301
+Tracing started for session auto-20230125-212301
+Starting program execution...
+Program execution ends
+duration = 120273391388 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-212301
+Destroying session auto-20230125-212301..
+Session auto-20230125-212301 destroyed
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230125-212502 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-212502
+ust channel default-channel enabled for session auto-20230125-212502
+Tracing started for session auto-20230125-212502
+Starting program execution...
+Program execution ends
+duration = 120465360641 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-212502
+Destroying session auto-20230125-212502..
+Session auto-20230125-212502 destroyed
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230125-212704 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-212704
+ust channel default-channel enabled for session auto-20230125-212704
+Tracing started for session auto-20230125-212704
+Starting program execution...
+Program execution ends
+duration = 120452248657 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-212704
+Destroying session auto-20230125-212704..
+Session auto-20230125-212704 destroyed
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230125-212905 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-212905
+ust channel default-channel enabled for session auto-20230125-212905
+Tracing started for session auto-20230125-212905
+Starting program execution...
+Program execution ends
+duration = 120552839834 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-212905
+Destroying session auto-20230125-212905..
+Session auto-20230125-212905 destroyed
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230125-213107 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-213107
+ust channel default-channel enabled for session auto-20230125-213107
+Tracing started for session auto-20230125-213107
+Starting program execution...
+Program execution ends
+duration = 120617809962 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-213107
+Destroying session auto-20230125-213107..
+Session auto-20230125-213107 destroyed
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230125-213308 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-213308
+ust channel default-channel enabled for session auto-20230125-213308
+Tracing started for session auto-20230125-213308
+Starting program execution...
+Program execution ends
+duration = 120413449281 ns
+Waiting for data availability
+Tracing stopped for session auto-20230125-213308
+Destroying session auto-20230125-213308..
+Session auto-20230125-213308 destroyed
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230125-213510 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-213510
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-213510
+Starting program execution...
+Program execution ends
+duration = 120315017881 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-213510
+Destroying session auto-20230125-213510..
+Session auto-20230125-213510 destroyed
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230125-213711 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-213711
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-213711
+Starting program execution...
+Program execution ends
+duration = 120543346744 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-213711
+Destroying session auto-20230125-213711..
+Session auto-20230125-213711 destroyed
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230125-213912 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-213912
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-213912
+Starting program execution...
+Program execution ends
+duration = 120409138503 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-213912
+Destroying session auto-20230125-213912..
+Session auto-20230125-213912 destroyed
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230125-214114 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-214114
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-214114
+Starting program execution...
+Program execution ends
+duration = 120467575414 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-214114
+Destroying session auto-20230125-214114..
+Session auto-20230125-214114 destroyed
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230125-214315 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-214315
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-214315
+Starting program execution...
+Program execution ends
+duration = 120498754928 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-214315
+Destroying session auto-20230125-214315..
+Session auto-20230125-214315 destroyed
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230125-214517 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-214517
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-214517
+Starting program execution...
+Program execution ends
+duration = 120379584921 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-214517
+Destroying session auto-20230125-214517..
+Session auto-20230125-214517 destroyed
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230125-214718 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-214718
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-214718
+Starting program execution...
+Program execution ends
+duration = 120563719660 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-214718
+Destroying session auto-20230125-214718..
+Session auto-20230125-214718 destroyed
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230125-214920 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-214920
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-214920
+Starting program execution...
+Program execution ends
+duration = 120460943043 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-214920
+Destroying session auto-20230125-214920..
+Session auto-20230125-214920 destroyed
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230125-215121 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-215121
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-215121
+Starting program execution...
+Program execution ends
+duration = 120449442047 ns
+Waiting for data availability
+Tracing stopped for session auto-20230125-215121
+Destroying session auto-20230125-215121..
+Session auto-20230125-215121 destroyed
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230125-215323 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-215323
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-215323
+Starting program execution...
+Program execution ends
+duration = 119897544488 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-215323
+Destroying session auto-20230125-215323..
+Session auto-20230125-215323 destroyed
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120003289806 ns
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 119861741067 ns
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 119895691493 ns
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120068068067 ns
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120066115686 ns
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120330950339 ns
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120264171468 ns
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120422038639 ns
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120343838277 ns
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF ##########
+Starting program execution ...
+Program execution ends
+duration = 120211300040 ns
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120117413499 ns
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120539188920 ns
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120157632000 ns
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120155580532 ns
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120035630741 ns
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 119959482521 ns
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120144529560 ns
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120220815758 ns
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120386758766 ns
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120309328704 ns
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-223534 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-223534
+ust channel default-channel enabled for session auto-20230125-223534
+Tracing started for session auto-20230125-223534
+Starting program execution...
+Program execution ends
+duration = 120146833090 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-223534
+Destroying session auto-20230125-223534..
+Session auto-20230125-223534 destroyed
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-223736 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-223736
+ust channel default-channel enabled for session auto-20230125-223736
+Tracing started for session auto-20230125-223736
+Starting program execution...
+Program execution ends
+duration = 120078694749 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-223736
+Destroying session auto-20230125-223736..
+Session auto-20230125-223736 destroyed
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-223938 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-223938
+ust channel default-channel enabled for session auto-20230125-223938
+Tracing started for session auto-20230125-223938
+Starting program execution...
+Program execution ends
+duration = 120203956970 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-223938
+Destroying session auto-20230125-223938..
+Session auto-20230125-223938 destroyed
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-224140 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-224140
+ust channel default-channel enabled for session auto-20230125-224140
+Tracing started for session auto-20230125-224140
+Starting program execution...
+Program execution ends
+duration = 120059975295 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-224140
+Destroying session auto-20230125-224140..
+Session auto-20230125-224140 destroyed
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-224342 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-224342
+ust channel default-channel enabled for session auto-20230125-224342
+Tracing started for session auto-20230125-224342
+Starting program execution...
+Program execution ends
+duration = 120056794045 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-224342
+Destroying session auto-20230125-224342..
+Session auto-20230125-224342 destroyed
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-224544 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-224544
+ust channel default-channel enabled for session auto-20230125-224544
+Tracing started for session auto-20230125-224544
+Starting program execution...
+Program execution ends
+duration = 120547973524 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-224544
+Destroying session auto-20230125-224544..
+Session auto-20230125-224544 destroyed
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-224746 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-224746
+ust channel default-channel enabled for session auto-20230125-224746
+Tracing started for session auto-20230125-224746
+Starting program execution...
+Program execution ends
+duration = 120181380850 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-224746
+Destroying session auto-20230125-224746..
+Session auto-20230125-224746 destroyed
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-224948 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-224948
+ust channel default-channel enabled for session auto-20230125-224948
+Tracing started for session auto-20230125-224948
+Starting program execution...
+Program execution ends
+duration = 120275075278 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-224948
+Destroying session auto-20230125-224948..
+Session auto-20230125-224948 destroyed
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-225150 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-225150
+ust channel default-channel enabled for session auto-20230125-225150
+Tracing started for session auto-20230125-225150
+Starting program execution...
+Program execution ends
+duration = 120231532554 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-225150
+Destroying session auto-20230125-225150..
+Session auto-20230125-225150 destroyed
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230125-225352 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230125-225352
+ust channel default-channel enabled for session auto-20230125-225352
+Tracing started for session auto-20230125-225352
+Starting program execution...
+Program execution ends
+duration = 120234475952 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-225352
+Destroying session auto-20230125-225352..
+Session auto-20230125-225352 destroyed
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-225554 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-1000/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-225554
+Starting program execution...
+Program execution ends
+duration = 120290374018 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-225554
+Destroying session auto-20230125-225554..
+Session auto-20230125-225554 destroyed
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-225756 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-1000/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-225756
+Starting program execution...
+Program execution ends
+duration = 120423682233 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-225756
+Destroying session auto-20230125-225756..
+Session auto-20230125-225756 destroyed
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-225958 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-1000/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-225958
+Starting program execution...
+Program execution ends
+duration = 120326821407 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-225958
+Destroying session auto-20230125-225958..
+Session auto-20230125-225958 destroyed
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-230201 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-1000/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-230201
+Starting program execution...
+Program execution ends
+duration = 120218927872 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-230201
+Destroying session auto-20230125-230201..
+Session auto-20230125-230201 destroyed
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-230403 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-1000/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-230403
+Starting program execution...
+Program execution ends
+duration = 120273216080 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-230403
+Destroying session auto-20230125-230403..
+Session auto-20230125-230403 destroyed
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-230605 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-1000/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-230605
+Starting program execution...
+Program execution ends
+duration = 120190715782 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-230605
+Destroying session auto-20230125-230605..
+Session auto-20230125-230605 destroyed
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-230807 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-1000/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-230807
+Starting program execution...
+Program execution ends
+duration = 120186314972 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-230807
+Destroying session auto-20230125-230807..
+Session auto-20230125-230807 destroyed
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-231009 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-1000/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-231009
+Starting program execution...
+Program execution ends
+duration = 120364146182 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-231009
+Destroying session auto-20230125-231009..
+Session auto-20230125-231009 destroyed
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-231211 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-1000/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-231211
+Starting program execution...
+Program execution ends
+duration = 120356824178 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-231211
+Destroying session auto-20230125-231211..
+Session auto-20230125-231211 destroyed
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230125-231413 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-metrics-observable-up-down-counter-1000/open-telemetry-off
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230125-231413
+Starting program execution...
+Program execution ends
+duration = 120255307016 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230125-231413
+Destroying session auto-20230125-231413..
+Session auto-20230125-231413 destroyed
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 121045983575 ns
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120923704558 ns
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120579234951 ns
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120152699859 ns
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120290080656 ns
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120653995240 ns
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120825081632 ns
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120882816529 ns
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120791514925 ns
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+Starting program execution...
+Program execution ends
+duration = 120760578372 ns
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0   1389      0 --:--:-- --:--:-- --:--:--  1405
+Starting program execution...
+Program execution ends
+duration = 120723222092 ns
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0  29773      0 --:--:-- --:--:-- --:--:-- 34666
+Starting program execution...
+Program execution ends
+duration = 120410608501 ns
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0  29902      0 --:--:-- --:--:-- --:--:-- 34666
+Starting program execution...
+Program execution ends
+duration = 120662990194 ns
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0   1357      0 --:--:-- --:--:-- --:--:--  1368
+Starting program execution...
+Program execution ends
+duration = 120810142486 ns
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0  29042      0 --:--:-- --:--:-- --:--:-- 34666
+Starting program execution...
+Program execution ends
+duration = 120555058381 ns
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0   1419      0 --:--:-- --:--:-- --:--:--  1424
+Starting program execution...
+Program execution ends
+duration = 120882147081 ns
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0   1070      0 --:--:-- --:--:-- --:--:--  1072
+Starting program execution...
+Program execution ends
+duration = 120733615684 ns
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0  27556      0 --:--:-- --:--:-- --:--:-- 34666
+Starting program execution...
+Program execution ends
+duration = 120664596066 ns
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0  29714      0 --:--:-- --:--:-- --:--:-- 34666
+Starting program execution...
+Program execution ends
+duration = 120642131280 ns
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   104  100   104    0     0   1212      0 --:--:-- --:--:-- --:--:--  1223
+Starting program execution...
+Program execution ends
+duration = 120540705328 ns
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120169029555 ns
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120239613391 ns
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120449057105 ns
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120291812802 ns
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 119988112670 ns
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 119965804877 ns
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120261183246 ns
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120313494035 ns
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120465929205 ns
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+Starting program execution...
+Program execution ends
+duration = 120373035818 ns
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230126-001632 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-001632
+ust channel default-channel enabled for session auto-20230126-001632
+Tracing started for session auto-20230126-001632
+Starting program execution...
+Program execution ends
+duration = 120686186079 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-001632
+Destroying session auto-20230126-001632..
+Session auto-20230126-001632 destroyed
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230126-001834 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-001834
+ust channel default-channel enabled for session auto-20230126-001834
+Tracing started for session auto-20230126-001834
+Starting program execution...
+Program execution ends
+duration = 120144935287 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-001834
+Destroying session auto-20230126-001834..
+Session auto-20230126-001834 destroyed
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230126-002035 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-002035
+ust channel default-channel enabled for session auto-20230126-002035
+Tracing started for session auto-20230126-002035
+Starting program execution...
+Program execution ends
+duration = 120279502936 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-002035
+Destroying session auto-20230126-002035..
+Session auto-20230126-002035 destroyed
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230126-002236 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-002236
+ust channel default-channel enabled for session auto-20230126-002236
+Tracing started for session auto-20230126-002236
+Starting program execution...
+Program execution ends
+duration = 120459558300 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-002236
+Destroying session auto-20230126-002236..
+Session auto-20230126-002236 destroyed
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230126-002438 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-002438
+ust channel default-channel enabled for session auto-20230126-002438
+Tracing started for session auto-20230126-002438
+Starting program execution...
+Program execution ends
+duration = 120146140743 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-002438
+Destroying session auto-20230126-002438..
+Session auto-20230126-002438 destroyed
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230126-002639 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-002639
+ust channel default-channel enabled for session auto-20230126-002639
+Tracing started for session auto-20230126-002639
+Starting program execution...
+Program execution ends
+duration = 120165882394 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-002639
+Destroying session auto-20230126-002639..
+Session auto-20230126-002639 destroyed
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230126-002840 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-002840
+ust channel default-channel enabled for session auto-20230126-002840
+Tracing started for session auto-20230126-002840
+Starting program execution...
+Program execution ends
+duration = 120422790014 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-002840
+Destroying session auto-20230126-002840..
+Session auto-20230126-002840 destroyed
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230126-003041 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-003041
+ust channel default-channel enabled for session auto-20230126-003041
+Tracing started for session auto-20230126-003041
+Starting program execution...
+Program execution ends
+duration = 120313448339 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-003041
+Destroying session auto-20230126-003041..
+Session auto-20230126-003041 destroyed
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230126-003243 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-003243
+ust channel default-channel enabled for session auto-20230126-003243
+Tracing started for session auto-20230126-003243
+Starting program execution...
+Program execution ends
+duration = 120500030182 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-003243
+Destroying session auto-20230126-003243..
+Session auto-20230126-003243 destroyed
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230126-003444 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-003444
+ust channel default-channel enabled for session auto-20230126-003444
+Tracing started for session auto-20230126-003444
+Starting program execution...
+Program execution ends
+duration = 120166590273 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-003444
+Destroying session auto-20230126-003444..
+Session auto-20230126-003444 destroyed
+########## Run no 1 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230126-003645 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-003645
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230126-003645
+Starting program execution...
+Program execution ends
+duration = 120300552730 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-003645
+Destroying session auto-20230126-003645..
+Session auto-20230126-003645 destroyed
+########## Run no 2 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230126-003847 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-003847
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230126-003847
+Starting program execution...
+Program execution ends
+duration = 120442443453 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-003847
+Destroying session auto-20230126-003847..
+Session auto-20230126-003847 destroyed
+########## Run no 3 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230126-004048 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-004048
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230126-004048
+Starting program execution...
+Program execution ends
+duration = 120444866155 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-004048
+Destroying session auto-20230126-004048..
+Session auto-20230126-004048 destroyed
+########## Run no 4 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230126-004250 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-004250
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230126-004250
+Starting program execution...
+Program execution ends
+duration = 120470294963 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-004250
+Destroying session auto-20230126-004250..
+Session auto-20230126-004250 destroyed
+########## Run no 5 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230126-004451 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-004451
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230126-004451
+Starting program execution...
+Program execution ends
+duration = 120464568604 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-004451
+Destroying session auto-20230126-004451..
+Session auto-20230126-004451 destroyed
+########## Run no 6 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230126-004653 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-004653
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230126-004653
+Starting program execution...
+Program execution ends
+duration = 120377054423 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-004653
+Destroying session auto-20230126-004653..
+Session auto-20230126-004653 destroyed
+########## Run no 7 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230126-004854 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-004854
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230126-004854
+Starting program execution...
+Program execution ends
+duration = 120341771118 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-004854
+Destroying session auto-20230126-004854..
+Session auto-20230126-004854 destroyed
+########## Run no 8 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230126-005055 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-005055
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230126-005055
+Starting program execution...
+Program execution ends
+duration = 120432459381 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-005055
+Destroying session auto-20230126-005055..
+Session auto-20230126-005055 destroyed
+########## Run no 9 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230126-005257 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-005257
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230126-005257
+Starting program execution...
+Program execution ends
+duration = 120492587281 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-005257
+Destroying session auto-20230126-005257..
+Session auto-20230126-005257 destroyed
+########## Run no 10 executable=benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230126-005458 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230126-005458
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20230126-005458
+Starting program execution...
+Program execution ends
+duration = 120559635634 ns
+Waiting for data availability.
+Tracing stopped for session auto-20230126-005458
+Destroying session auto-20230126-005458..
+Session auto-20230126-005458 destroyed
+Done!
