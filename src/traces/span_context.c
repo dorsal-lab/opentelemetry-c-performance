@@ -14,6 +14,7 @@ int main() {
 
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 
 int main() {
   init_tracer_provider("opentelemetry-c-performance", "0.0.1", "",
@@ -35,6 +36,7 @@ int main() {
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
     struct timespec duration = timespec_diff(start, end);
     nano_durations[i] = (1000000000LL * duration.tv_sec + duration.tv_nsec);
+    usleep(10000);
   }
 
   free(remote_span_ctx);
@@ -43,6 +45,7 @@ int main() {
   compute_array_stats(nano_durations, N_SPANS_TO_CREATE, &stats);
   print_array_stats(&stats, "ns");
   free(nano_durations);
+  destroy_tracer(tracer);
 
   return 0;
 }
@@ -52,6 +55,7 @@ int main() {
 #include "common/utils.h"
 
 #include <time.h>
+#include <unistd.h>
 
 void log_telemetry_data() {
   char telemetry_data[] =
@@ -129,6 +133,7 @@ int main() {
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
     struct timespec duration = timespec_diff(start, end);
     nano_durations[i] = (1000000000LL * duration.tv_sec + duration.tv_nsec);
+    usleep(10000);
   }
   struct array_stats_t stats;
   compute_array_stats(nano_durations, N_SPANS_TO_CREATE, &stats);

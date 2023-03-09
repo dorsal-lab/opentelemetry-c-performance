@@ -70,6 +70,7 @@ all_executables=(
   "benchmark-traces-nested-span"
 )
 for executable in "${all_executables[@]}"; do
+
   for i in $(seq 1 $n); do
     echo "########## Run no $i executable=$executable TRACING_ENABLED=OFF ##########"
     time "$build_dir_tracing_off/$executable"
@@ -93,11 +94,27 @@ for executable in "${all_executables[@]}"; do
   for i in $(seq 1 $n); do
     echo "########## Run no $i executable=$executable TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########"
     lttng create "--output=ctf-traces/$executable/open-telemetry-off"
-    lttng enable-event -u 'opentelemetry:*'
+    lttng enable-channel --userspace userspace_channel --subbuf-size=2M
+    lttng enable-event --channel=userspace_channel -u 'opentelemetry:*'
     lttng start
     time "$build_dir_opentelemetry_off/$executable"
     lttng stop
     lttng destroy
+  done
+
+  for i in $(seq 1 $n); do
+    echo "########## Run no $i executable=$executable TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in remote lttng session ust event enabled ##########"
+    if ping -c 5 "132.207.72.28"; then
+      lttng create --set-url=net://132.207.72.28
+      lttng enable-channel --userspace userspace_channel --subbuf-size=2M
+      lttng enable-event --channel=userspace_channel -u 'opentelemetry:*'
+      lttng start
+      time "$build_dir_opentelemetry_off/$executable"
+      lttng stop
+      lttng destroy
+    else
+      echo "Remote lttng not responding"
+    fi
   done
 
   for i in $(seq 1 $n); do
@@ -170,7 +187,8 @@ for executable in "${all_executables[@]}"; do
   for i in $(seq 1 $n); do
     echo "########## Run no $i executable=$executable TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########"
     lttng create
-    lttng enable-event -u 'opentelemetry:*'
+    lttng enable-channel --userspace userspace_channel --subbuf-size=2M
+    lttng enable-event --channel=userspace_channel -u 'opentelemetry:*'
     lttng start
     time "$build_dir_lttng_exporter_on_simple/$executable"
     lttng stop
@@ -178,13 +196,44 @@ for executable in "${all_executables[@]}"; do
   done
 
   for i in $(seq 1 $n); do
+    echo "########## Run no $i executable=$executable TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########"
+    if ping -c 5 "132.207.72.28"; then
+      lttng create --set-url=net://132.207.72.28
+      lttng enable-channel --userspace userspace_channel --subbuf-size=2M
+      lttng enable-event --channel=userspace_channel -u 'opentelemetry:*'
+      lttng start
+      time "$build_dir_lttng_exporter_on_simple/$executable"
+      lttng stop
+      lttng destroy
+    else
+      echo "Remote lttng not responding"
+    fi
+  done
+
+  for i in $(seq 1 $n); do
     echo "########## Run no $i executable=$executable TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########"
     lttng create
-    lttng enable-event -u 'opentelemetry:*'
+    lttng enable-channel --userspace userspace_channel --subbuf-size=2M
+    lttng enable-event --channel=userspace_channel -u 'opentelemetry:*'
     lttng start
     time "$build_dir_lttng_exporter_on_batch/$executable"
     lttng stop
     lttng destroy
+  done
+
+  for i in $(seq 1 $n); do
+    echo "########## Run no $i executable=$executable TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########"
+    if ping -c 5 "132.207.72.28"; then
+      lttng create --set-url=net://132.207.72.28
+      lttng enable-channel --userspace userspace_channel --subbuf-size=2M
+      lttng enable-event --channel=userspace_channel -u 'opentelemetry:*'
+      lttng start
+      time "$build_dir_lttng_exporter_on_batch/$executable"
+      lttng stop
+      lttng destroy
+    else
+      echo "Remote lttng not responding"
+    fi
   done
 
 done

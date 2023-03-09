@@ -1,0 +1,2486 @@
+Building all targets ...
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/build_dir_tracing_off
+[  4%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/traces/simple.c.o
+[  8%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/common/utils.c.o
+[ 12%] Linking C executable benchmark-traces-simple
+[ 12%] Built target benchmark-traces-simple
+[ 16%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/traces/context_extraction.c.o
+[ 20%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/common/utils.c.o
+[ 25%] Linking C executable benchmark-traces-context-extraction
+[ 25%] Built target benchmark-traces-context-extraction
+[ 29%] Building C object CMakeFiles/benchmark-traces-event.dir/src/traces/event.c.o
+[ 33%] Building C object CMakeFiles/benchmark-traces-event.dir/src/common/utils.c.o
+[ 37%] Linking C executable benchmark-traces-event
+[ 37%] Built target benchmark-traces-event
+[ 41%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/traces/attribute.c.o
+[ 45%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/common/utils.c.o
+[ 50%] Linking C executable benchmark-traces-attribute
+[ 50%] Built target benchmark-traces-attribute
+[ 54%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/traces/span_context.c.o
+[ 58%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/common/utils.c.o
+[ 62%] Linking C executable benchmark-traces-span-context
+[ 62%] Built target benchmark-traces-span-context
+[ 66%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/traces/nested_span.c.o
+[ 70%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/common/utils.c.o
+[ 75%] Linking C executable benchmark-traces-nested-span
+[ 75%] Built target benchmark-traces-nested-span
+[ 79%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/metrics/observable_up_down_counter_500.c.o
+[ 83%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/common/utils.c.o
+[ 87%] Linking C executable benchmark-metrics-observable-up-down-counter-500
+[ 87%] Built target benchmark-metrics-observable-up-down-counter-500
+[ 91%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/metrics/observable_up_down_counter_1000.c.o
+[ 95%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/common/utils.c.o
+[100%] Linking C executable benchmark-metrics-observable-up-down-counter-1000
+[100%] Built target benchmark-metrics-observable-up-down-counter-1000
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/build_dir_opentelemetry_off
+[  3%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/common/telemetry_data_tracepoint.c.o
+[  6%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/traces/simple.c.o
+[  9%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/common/utils.c.o
+[ 12%] Linking C executable benchmark-traces-simple
+[ 12%] Built target benchmark-traces-simple
+[ 15%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/common/telemetry_data_tracepoint.c.o
+[ 18%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/traces/context_extraction.c.o
+[ 21%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/common/utils.c.o
+[ 25%] Linking C executable benchmark-traces-context-extraction
+[ 25%] Built target benchmark-traces-context-extraction
+[ 28%] Building C object CMakeFiles/benchmark-traces-event.dir/src/common/telemetry_data_tracepoint.c.o
+[ 31%] Building C object CMakeFiles/benchmark-traces-event.dir/src/traces/event.c.o
+[ 34%] Building C object CMakeFiles/benchmark-traces-event.dir/src/common/utils.c.o
+[ 37%] Linking C executable benchmark-traces-event
+[ 37%] Built target benchmark-traces-event
+[ 40%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/common/telemetry_data_tracepoint.c.o
+[ 43%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/traces/attribute.c.o
+[ 46%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/common/utils.c.o
+[ 50%] Linking C executable benchmark-traces-attribute
+[ 50%] Built target benchmark-traces-attribute
+[ 53%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/common/telemetry_data_tracepoint.c.o
+[ 56%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/traces/span_context.c.o
+[ 59%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/common/utils.c.o
+[ 62%] Linking C executable benchmark-traces-span-context
+[ 62%] Built target benchmark-traces-span-context
+[ 65%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/common/telemetry_data_tracepoint.c.o
+[ 68%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/traces/nested_span.c.o
+[ 71%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/common/utils.c.o
+[ 75%] Linking C executable benchmark-traces-nested-span
+[ 75%] Built target benchmark-traces-nested-span
+[ 78%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/common/telemetry_data_tracepoint.c.o
+[ 81%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/metrics/observable_up_down_counter_500.c.o
+[ 84%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/common/utils.c.o
+[ 87%] Linking C executable benchmark-metrics-observable-up-down-counter-500
+[ 87%] Built target benchmark-metrics-observable-up-down-counter-500
+[ 90%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/common/telemetry_data_tracepoint.c.o
+[ 93%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/metrics/observable_up_down_counter_1000.c.o
+[ 96%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/common/utils.c.o
+[100%] Linking C executable benchmark-metrics-observable-up-down-counter-1000
+[100%] Built target benchmark-metrics-observable-up-down-counter-1000
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found LTTngUST: /usr/local/lib/liblttng-ust.so;dl (found version "2.3.5") 
+-- Found nlohmann_json: /usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found opentelemetry-cpp: /usr/local/include  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/build_dir_lttng_exporter_on_simple
+[  3%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/opentelemetry_c.cpp.o
+[  6%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/utils/map.cpp.o
+[  9%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/utils/socket_carrier.cpp.o
+[ 12%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/utils/lttng_metrics_exporter.cpp.o
+[ 16%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/utils/lttng_opentelemetry_exporter_tracepoints.cpp.o
+[ 19%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/utils/lttng_spans_exporter.cpp.o
+[ 22%] Linking CXX static library libopentelemetry-c.a
+[ 22%] Built target opentelemetry-c
+[ 25%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/traces/simple.c.o
+[ 29%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/common/utils.c.o
+[ 32%] Linking CXX executable benchmark-traces-simple
+[ 32%] Built target benchmark-traces-simple
+[ 35%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/traces/context_extraction.c.o
+[ 38%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/common/utils.c.o
+[ 41%] Linking CXX executable benchmark-traces-context-extraction
+[ 41%] Built target benchmark-traces-context-extraction
+[ 45%] Building C object CMakeFiles/benchmark-traces-event.dir/src/traces/event.c.o
+[ 48%] Building C object CMakeFiles/benchmark-traces-event.dir/src/common/utils.c.o
+[ 51%] Linking CXX executable benchmark-traces-event
+[ 51%] Built target benchmark-traces-event
+[ 54%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/traces/attribute.c.o
+[ 58%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/common/utils.c.o
+[ 61%] Linking CXX executable benchmark-traces-attribute
+[ 61%] Built target benchmark-traces-attribute
+[ 64%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/traces/span_context.c.o
+[ 67%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/common/utils.c.o
+[ 70%] Linking CXX executable benchmark-traces-span-context
+[ 70%] Built target benchmark-traces-span-context
+[ 74%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/traces/nested_span.c.o
+[ 77%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/common/utils.c.o
+[ 80%] Linking CXX executable benchmark-traces-nested-span
+[ 80%] Built target benchmark-traces-nested-span
+[ 83%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/metrics/observable_up_down_counter_500.c.o
+[ 87%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/common/utils.c.o
+[ 90%] Linking CXX executable benchmark-metrics-observable-up-down-counter-500
+[ 90%] Built target benchmark-metrics-observable-up-down-counter-500
+[ 93%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/metrics/observable_up_down_counter_1000.c.o
+[ 96%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/common/utils.c.o
+[100%] Linking CXX executable benchmark-metrics-observable-up-down-counter-1000
+[100%] Built target benchmark-metrics-observable-up-down-counter-1000
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/build_dir_lttng_exporter_on_batch
+Consolidate compiler generated dependencies of target opentelemetry-c
+[ 22%] Built target opentelemetry-c
+Consolidate compiler generated dependencies of target benchmark-traces-simple
+[ 32%] Built target benchmark-traces-simple
+Consolidate compiler generated dependencies of target benchmark-traces-context-extraction
+[ 41%] Built target benchmark-traces-context-extraction
+Consolidate compiler generated dependencies of target benchmark-traces-event
+[ 51%] Built target benchmark-traces-event
+Consolidate compiler generated dependencies of target benchmark-traces-attribute
+[ 61%] Built target benchmark-traces-attribute
+Consolidate compiler generated dependencies of target benchmark-traces-span-context
+[ 70%] Built target benchmark-traces-span-context
+Consolidate compiler generated dependencies of target benchmark-traces-nested-span
+[ 80%] Built target benchmark-traces-nested-span
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-500
+[ 90%] Built target benchmark-metrics-observable-up-down-counter-500
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-1000
+[100%] Built target benchmark-metrics-observable-up-down-counter-1000
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found LTTngUST: /usr/local/lib/liblttng-ust.so;dl (found version "2.3.5") 
+-- Found nlohmann_json: /usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found opentelemetry-cpp: /usr/local/include  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/build_dir_lttng_exporter_off_simple
+[  3%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/opentelemetry_c.cpp.o
+[  7%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/utils/map.cpp.o
+[ 10%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/utils/socket_carrier.cpp.o
+[ 14%] Linking CXX static library libopentelemetry-c.a
+[ 14%] Built target opentelemetry-c
+[ 17%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/traces/simple.c.o
+[ 21%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/common/utils.c.o
+[ 25%] Linking CXX executable benchmark-traces-simple
+[ 25%] Built target benchmark-traces-simple
+[ 28%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/traces/context_extraction.c.o
+[ 32%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/common/utils.c.o
+[ 35%] Linking CXX executable benchmark-traces-context-extraction
+[ 35%] Built target benchmark-traces-context-extraction
+[ 39%] Building C object CMakeFiles/benchmark-traces-event.dir/src/traces/event.c.o
+[ 42%] Building C object CMakeFiles/benchmark-traces-event.dir/src/common/utils.c.o
+[ 46%] Linking CXX executable benchmark-traces-event
+[ 46%] Built target benchmark-traces-event
+[ 50%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/traces/attribute.c.o
+[ 53%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/common/utils.c.o
+[ 57%] Linking CXX executable benchmark-traces-attribute
+[ 57%] Built target benchmark-traces-attribute
+[ 60%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/traces/span_context.c.o
+[ 64%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/common/utils.c.o
+[ 67%] Linking CXX executable benchmark-traces-span-context
+[ 67%] Built target benchmark-traces-span-context
+[ 71%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/traces/nested_span.c.o
+[ 75%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/common/utils.c.o
+[ 78%] Linking CXX executable benchmark-traces-nested-span
+[ 78%] Built target benchmark-traces-nested-span
+[ 82%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/metrics/observable_up_down_counter_500.c.o
+[ 85%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-500.dir/src/common/utils.c.o
+[ 89%] Linking CXX executable benchmark-metrics-observable-up-down-counter-500
+[ 89%] Built target benchmark-metrics-observable-up-down-counter-500
+[ 92%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/metrics/observable_up_down_counter_1000.c.o
+[ 96%] Building C object CMakeFiles/benchmark-metrics-observable-up-down-counter-1000.dir/src/common/utils.c.o
+[100%] Linking CXX executable benchmark-metrics-observable-up-down-counter-1000
+[100%] Built target benchmark-metrics-observable-up-down-counter-1000
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/build_dir_lttng_exporter_off_batch
+Consolidate compiler generated dependencies of target opentelemetry-c
+[  3%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/opentelemetry_c.cpp.o
+[  7%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/utils/map.cpp.o
+[ 10%] Building CXX object third-party/opentelemetry-c/CMakeFiles/opentelemetry-c.dir/src/utils/socket_carrier.cpp.o
+[ 14%] Linking CXX static library libopentelemetry-c.a
+[ 14%] Built target opentelemetry-c
+Consolidate compiler generated dependencies of target benchmark-traces-simple
+[ 17%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/traces/simple.c.o
+[ 21%] Building C object CMakeFiles/benchmark-traces-simple.dir/src/common/utils.c.o
+[ 25%] Linking CXX executable benchmark-traces-simple
+[ 25%] Built target benchmark-traces-simple
+Consolidate compiler generated dependencies of target benchmark-traces-context-extraction
+[ 28%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/traces/context_extraction.c.o
+[ 32%] Building C object CMakeFiles/benchmark-traces-context-extraction.dir/src/common/utils.c.o
+[ 35%] Linking CXX executable benchmark-traces-context-extraction
+[ 35%] Built target benchmark-traces-context-extraction
+Consolidate compiler generated dependencies of target benchmark-traces-event
+[ 39%] Building C object CMakeFiles/benchmark-traces-event.dir/src/traces/event.c.o
+[ 42%] Building C object CMakeFiles/benchmark-traces-event.dir/src/common/utils.c.o
+[ 46%] Linking CXX executable benchmark-traces-event
+[ 46%] Built target benchmark-traces-event
+Consolidate compiler generated dependencies of target benchmark-traces-attribute
+[ 50%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/traces/attribute.c.o
+[ 53%] Building C object CMakeFiles/benchmark-traces-attribute.dir/src/common/utils.c.o
+[ 57%] Linking CXX executable benchmark-traces-attribute
+[ 57%] Built target benchmark-traces-attribute
+Consolidate compiler generated dependencies of target benchmark-traces-span-context
+[ 60%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/traces/span_context.c.o
+[ 64%] Building C object CMakeFiles/benchmark-traces-span-context.dir/src/common/utils.c.o
+[ 67%] Linking CXX executable benchmark-traces-span-context
+[ 67%] Built target benchmark-traces-span-context
+Consolidate compiler generated dependencies of target benchmark-traces-nested-span
+[ 71%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/traces/nested_span.c.o
+[ 75%] Building C object CMakeFiles/benchmark-traces-nested-span.dir/src/common/utils.c.o
+[ 78%] Linking CXX executable benchmark-traces-nested-span
+[ 78%] Built target benchmark-traces-nested-span
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-500
+[ 82%] Linking CXX executable benchmark-metrics-observable-up-down-counter-500
+[ 89%] Built target benchmark-metrics-observable-up-down-counter-500
+Consolidate compiler generated dependencies of target benchmark-metrics-observable-up-down-counter-1000
+[ 92%] Linking CXX executable benchmark-metrics-observable-up-down-counter-1000
+[100%] Built target benchmark-metrics-observable-up-down-counter-1000
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=OFF ##########
+Nothing to do
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+min = 162 ns
+mean = 512.692700 ns
+max = 17884 ns
+median = 451.000000 ns
+std = 293.988669 ns
+sum = 5126927 ns
+first = 231 ns
+second = 315 ns
+third = 318 ns
+len = 10000
+
+real	1m41.329s
+user	0m0.067s
+sys	0m0.272s
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230228-105331 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-105331
+ust channel default-channel enabled for session auto-20230228-105331
+Tracing started for session auto-20230228-105331
+min = 99 ns
+mean = 322.902900 ns
+max = 10595 ns
+median = 295.000000 ns
+std = 122.127915 ns
+sum = 3229029 ns
+first = 224 ns
+second = 262 ns
+third = 262 ns
+len = 10000
+
+real	1m41.359s
+user	0m0.081s
+sys	0m0.261s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-105331
+Destroying session auto-20230228-105331..
+Session auto-20230228-105331 destroyed
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230228-105513 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-traces-simple/open-telemetry-off
+ust channel userspace_channel enabled for session auto-20230228-105513
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-105513
+min = 151 ns
+mean = 352.587200 ns
+max = 30364 ns
+median = 334.000000 ns
+std = 551.678744 ns
+sum = 3525872 ns
+first = 280 ns
+second = 244 ns
+third = 268 ns
+len = 10000
+
+real	1m41.442s
+user	0m0.101s
+sys	0m0.258s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-105513
+Destroying session auto-20230228-105513..
+Session auto-20230228-105513 destroyed
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.576 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.491 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.575 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.545 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 4 received, 20% packet loss, time 4092ms
+rtt min/avg/max/mdev = 0.491/0.546/0.576/0.034 ms
+Session auto-20230228-105700 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-105700
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-105700
+min = 117 ns
+mean = 321.357900 ns
+max = 11084 ns
+median = 296.500000 ns
+std = 119.486117 ns
+sum = 3213579 ns
+first = 184 ns
+second = 251 ns
+third = 244 ns
+len = 10000
+
+real	1m41.447s
+user	0m0.060s
+sys	0m0.306s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-105700
+Destroying session auto-20230228-105700..
+Session auto-20230228-105700 destroyed
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   104  100   104    0     0  42207      0 --:--:-- --:--:-- --:--:-- 52000
+min = 921599 ns
+mean = 1973461.513000 ns
+max = 16267473 ns
+median = 1973313.500000 ns
+std = 391869.382878 ns
+sum = 9867307565 ns
+first = 16267473 ns
+second = 1626446 ns
+third = 1087440 ns
+len = 5000
+
+real	1m0.479s
+user	0m7.194s
+sys	0m0.436s
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   104  100   104    0     0  37450      0 --:--:-- --:--:-- --:--:-- 52000
+min = 14674 ns
+mean = 116893.571100 ns
+max = 443554 ns
+median = 118374.500000 ns
+std = 12128.400044 ns
+sum = 1168935711 ns
+first = 443554 ns
+second = 69921 ns
+third = 103734 ns
+len = 10000
+
+real	1m42.450s
+user	0m1.799s
+sys	0m0.146s
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   103  100   103    0     0    100      0  0:00:01  0:00:01 --:--:--   100
+min = 1915482 ns
+mean = 2939789.871000 ns
+max = 21081931 ns
+median = 3113322.000000 ns
+std = 559350.838529 ns
+sum = 14698949355 ns
+first = 16529869 ns
+second = 2422132 ns
+third = 3406611 ns
+len = 5000
+
+real	1m5.363s
+user	0m7.979s
+sys	0m0.503s
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   103  100   103    0     0  37318      0 --:--:-- --:--:-- --:--:-- 51500
+min = 41968 ns
+mean = 115987.306000 ns
+max = 432839 ns
+median = 129697.000000 ns
+std = 9252.250144 ns
+sum = 1159873060 ns
+first = 432839 ns
+second = 74375 ns
+third = 98413 ns
+len = 10000
+
+real	1m42.468s
+user	0m1.762s
+sys	0m0.227s
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 105523 ns
+mean = 288656.855400 ns
+max = 879475 ns
+median = 289168.000000 ns
+std = 21415.190513 ns
+sum = 2886568554 ns
+first = 879475 ns
+second = 105523 ns
+third = 246434 ns
+len = 10000
+
+real	1m44.257s
+user	0m3.008s
+sys	0m0.257s
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 23264 ns
+mean = 116762.629500 ns
+max = 393628 ns
+median = 119463.500000 ns
+std = 9378.592877 ns
+sum = 1167626295 ns
+first = 393628 ns
+second = 117994 ns
+third = 96901 ns
+len = 10000
+
+real	1m42.536s
+user	0m1.625s
+sys	0m0.241s
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-110741 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-110741
+ust channel default-channel enabled for session auto-20230228-110741
+Tracing started for session auto-20230228-110741
+min = 96919 ns
+mean = 288907.060800 ns
+max = 1067320 ns
+median = 292041.000000 ns
+std = 20863.561112 ns
+sum = 2889070608 ns
+first = 1067320 ns
+second = 96919 ns
+third = 235251 ns
+len = 10000
+
+real	1m44.270s
+user	0m3.009s
+sys	0m0.261s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-110741
+Destroying session auto-20230228-110741..
+Session auto-20230228-110741 destroyed
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-110927 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-110927
+ust channel default-channel enabled for session auto-20230228-110927
+Tracing started for session auto-20230228-110927
+min = 23166 ns
+mean = 117924.276500 ns
+max = 412612 ns
+median = 115508.000000 ns
+std = 9851.612153 ns
+sum = 1179242765 ns
+first = 412612 ns
+second = 62407 ns
+third = 93509 ns
+len = 10000
+
+real	1m42.559s
+user	0m1.642s
+sys	0m0.235s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-110927
+Destroying session auto-20230228-110927..
+Session auto-20230228-110927 destroyed
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-111110 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-111110
+ust channel userspace_channel enabled for session auto-20230228-111110
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-111110
+min = 74073 ns
+mean = 285402.207600 ns
+max = 739916 ns
+median = 290221.000000 ns
+std = 22938.674598 ns
+sum = 2854022076 ns
+first = 739916 ns
+second = 233646 ns
+third = 235575 ns
+len = 10000
+
+real	1m44.322s
+user	0m2.927s
+sys	0m0.317s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-111110
+Destroying session auto-20230228-111110..
+Session auto-20230228-111110 destroyed
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.671 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.959 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.575 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.672 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.582 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4071ms
+rtt min/avg/max/mdev = 0.575/0.691/0.959/0.139 ms
+Session auto-20230228-111259 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-111259
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-111259
+min = 128841 ns
+mean = 290360.569500 ns
+max = 716422 ns
+median = 285220.500000 ns
+std = 20209.329645 ns
+sum = 2903605695 ns
+first = 716422 ns
+second = 232229 ns
+third = 243126 ns
+len = 10000
+
+real	1m44.363s
+user	0m3.023s
+sys	0m0.274s
+Waiting for data availability..
+Tracing stopped for session auto-20230228-111259
+Destroying session auto-20230228-111259..
+Session auto-20230228-111259 destroyed
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-111445 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-111445
+ust channel userspace_channel enabled for session auto-20230228-111445
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-111445
+min = 47978 ns
+mean = 119285.199300 ns
+max = 364311 ns
+median = 115986.500000 ns
+std = 9457.674328 ns
+sum = 1192851993 ns
+first = 364311 ns
+second = 47978 ns
+third = 91237 ns
+len = 10000
+
+real	1m42.660s
+user	0m1.673s
+sys	0m0.233s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-111445
+Destroying session auto-20230228-111445..
+Session auto-20230228-111445 destroyed
+########## Run no 1 executable=benchmark-traces-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.648 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.542 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.580 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.537 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.557 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4100ms
+rtt min/avg/max/mdev = 0.537/0.572/0.648/0.040 ms
+Session auto-20230228-111633 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-111633
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-111633
+min = 19669 ns
+mean = 118661.366500 ns
+max = 360667 ns
+median = 120305.000000 ns
+std = 8888.863979 ns
+sum = 1186613665 ns
+first = 360667 ns
+second = 19669 ns
+third = 91347 ns
+len = 10000
+
+real	1m42.663s
+user	0m1.662s
+sys	0m0.269s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-111633
+Destroying session auto-20230228-111633..
+Session auto-20230228-111633 destroyed
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=OFF ##########
+Nothing to do
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+min = 160 ns
+mean = 463.494300 ns
+max = 20183 ns
+median = 492.500000 ns
+std = 359.191184 ns
+sum = 4634943 ns
+first = 299 ns
+second = 280 ns
+third = 361 ns
+len = 10000
+
+real	1m41.328s
+user	0m0.067s
+sys	0m0.272s
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230228-111958 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-111958
+ust channel default-channel enabled for session auto-20230228-111958
+Tracing started for session auto-20230228-111958
+min = 99 ns
+mean = 348.415300 ns
+max = 19300 ns
+median = 319.000000 ns
+std = 357.372496 ns
+sum = 3484153 ns
+first = 215 ns
+second = 235 ns
+third = 234 ns
+len = 10000
+
+real	1m41.355s
+user	0m0.112s
+sys	0m0.238s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-111958
+Destroying session auto-20230228-111958..
+Session auto-20230228-111958 destroyed
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230228-112140 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-traces-context-extraction/open-telemetry-off
+ust channel userspace_channel enabled for session auto-20230228-112140
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-112140
+min = 150 ns
+mean = 329.249200 ns
+max = 1086 ns
+median = 399.500000 ns
+std = 52.345845 ns
+sum = 3292492 ns
+first = 246 ns
+second = 219 ns
+third = 225 ns
+len = 10000
+
+real	1m41.438s
+user	0m0.071s
+sys	0m0.284s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-112140
+Destroying session auto-20230228-112140..
+Session auto-20230228-112140 destroyed
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.572 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.702 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.543 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.505 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.553 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4078ms
+rtt min/avg/max/mdev = 0.505/0.575/0.702/0.067 ms
+Session auto-20230228-112326 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-112326
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-112326
+min = 154 ns
+mean = 488.537800 ns
+max = 16905 ns
+median = 472.500000 ns
+std = 251.072710 ns
+sum = 4885378 ns
+first = 293 ns
+second = 330 ns
+third = 321 ns
+len = 10000
+
+real	1m41.435s
+user	0m0.058s
+sys	0m0.300s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-112326
+Destroying session auto-20230228-112326..
+Session auto-20230228-112326 destroyed
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   104  100   104    0     0  35458      0 --:--:-- --:--:-- --:--:-- 52000
+min = 989950 ns
+mean = 1992734.204200 ns
+max = 13790980 ns
+median = 2120859.000000 ns
+std = 363429.840124 ns
+sum = 9963671021 ns
+first = 13790980 ns
+second = 1454171 ns
+third = 1673266 ns
+len = 5000
+
+real	1m0.575s
+user	0m7.169s
+sys	0m0.518s
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   104  100   104    0     0  43297      0 --:--:-- --:--:-- --:--:-- 52000
+min = 25437 ns
+mean = 123064.778100 ns
+max = 445868 ns
+median = 120611.000000 ns
+std = 12367.336851 ns
+sum = 1230647781 ns
+first = 445868 ns
+second = 116590 ns
+third = 117754 ns
+len = 10000
+
+real	1m42.515s
+user	0m1.835s
+sys	0m0.181s
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   102  100   102    0     0    100      0  0:00:01  0:00:01 --:--:--   100
+min = 1899907 ns
+mean = 2936708.843600 ns
+max = 14961200 ns
+median = 3144067.000000 ns
+std = 449374.943374 ns
+sum = 14683544218 ns
+first = 14961200 ns
+second = 2779106 ns
+third = 2456922 ns
+len = 5000
+
+real	1m5.350s
+user	0m8.092s
+sys	0m0.453s
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   103  100   103    0     0  34598      0 --:--:-- --:--:-- --:--:-- 51500
+min = 39255 ns
+mean = 125230.660700 ns
+max = 441946 ns
+median = 123506.500000 ns
+std = 10422.220001 ns
+sum = 1252306607 ns
+first = 441946 ns
+second = 117585 ns
+third = 114643 ns
+len = 10000
+
+real	1m42.551s
+user	0m1.846s
+sys	0m0.190s
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 92071 ns
+mean = 296533.049300 ns
+max = 937976 ns
+median = 298420.500000 ns
+std = 22442.644694 ns
+sum = 2965330493 ns
+first = 937976 ns
+second = 154922 ns
+third = 263046 ns
+len = 10000
+
+real	1m44.330s
+user	0m3.110s
+sys	0m0.240s
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 25330 ns
+mean = 124098.065500 ns
+max = 380660 ns
+median = 122208.500000 ns
+std = 9680.275242 ns
+sum = 1240980655 ns
+first = 380660 ns
+second = 113774 ns
+third = 133357 ns
+len = 10000
+
+real	1m42.638s
+user	0m1.717s
+sys	0m0.215s
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-113408 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-113408
+ust channel default-channel enabled for session auto-20230228-113408
+Tracing started for session auto-20230228-113408
+min = 86612 ns
+mean = 289019.099800 ns
+max = 715336 ns
+median = 283249.500000 ns
+std = 21374.487963 ns
+sum = 2890190998 ns
+first = 715336 ns
+second = 261726 ns
+third = 234341 ns
+len = 10000
+
+real	1m44.265s
+user	0m3.083s
+sys	0m0.187s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-113408
+Destroying session auto-20230228-113408..
+Session auto-20230228-113408 destroyed
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-113553 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-113553
+ust channel default-channel enabled for session auto-20230228-113553
+Tracing started for session auto-20230228-113553
+min = 31797 ns
+mean = 122249.298900 ns
+max = 393454 ns
+median = 124122.500000 ns
+std = 10074.179538 ns
+sum = 1222492989 ns
+first = 393454 ns
+second = 62500 ns
+third = 100640 ns
+len = 10000
+
+real	1m42.604s
+user	0m1.689s
+sys	0m0.224s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-113553
+Destroying session auto-20230228-113553..
+Session auto-20230228-113553 destroyed
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-113736 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-113736
+ust channel userspace_channel enabled for session auto-20230228-113736
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-113736
+min = 115847 ns
+mean = 293703.637900 ns
+max = 1170835 ns
+median = 322430.000000 ns
+std = 23528.938180 ns
+sum = 2937036379 ns
+first = 1170835 ns
+second = 157151 ns
+third = 189176 ns
+len = 10000
+
+real	1m44.397s
+user	0m3.080s
+sys	0m0.256s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-113736
+Destroying session auto-20230228-113736..
+Session auto-20230228-113736 destroyed
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.631 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.518 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.529 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.502 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.539 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4074ms
+rtt min/avg/max/mdev = 0.502/0.543/0.631/0.045 ms
+Session auto-20230228-113926 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-113926
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-113926
+min = 82716 ns
+mean = 291768.785200 ns
+max = 743295 ns
+median = 295062.500000 ns
+std = 22042.129264 ns
+sum = 2917687852 ns
+first = 743295 ns
+second = 115617 ns
+third = 238561 ns
+len = 10000
+
+real	1m44.372s
+user	0m3.076s
+sys	0m0.232s
+Waiting for data availability..
+Tracing stopped for session auto-20230228-113926
+Destroying session auto-20230228-113926..
+Session auto-20230228-113926 destroyed
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-114111 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-114111
+ust channel userspace_channel enabled for session auto-20230228-114111
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-114111
+min = 25658 ns
+mean = 123882.654700 ns
+max = 747780 ns
+median = 120973.000000 ns
+std = 11152.334677 ns
+sum = 1238826547 ns
+first = 747780 ns
+second = 101352 ns
+third = 96962 ns
+len = 10000
+
+real	1m42.707s
+user	0m1.753s
+sys	0m0.205s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-114111
+Destroying session auto-20230228-114111..
+Session auto-20230228-114111 destroyed
+########## Run no 1 executable=benchmark-traces-context-extraction TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.550 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.534 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.539 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.563 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.502 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4082ms
+rtt min/avg/max/mdev = 0.502/0.537/0.563/0.020 ms
+Session auto-20230228-114259 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-114259
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-114259
+min = 19886 ns
+mean = 123428.872800 ns
+max = 388219 ns
+median = 125637.000000 ns
+std = 9626.228118 ns
+sum = 1234288728 ns
+first = 388219 ns
+second = 19886 ns
+third = 42505 ns
+len = 10000
+
+real	1m42.697s
+user	0m1.712s
+sys	0m0.234s
+Waiting for data availability..
+Tracing stopped for session auto-20230228-114259
+Destroying session auto-20230228-114259..
+Session auto-20230228-114259 destroyed
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=OFF ##########
+Nothing to do
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+min = 151 ns
+mean = 410.202900 ns
+max = 37872 ns
+median = 412.500000 ns
+std = 430.895362 ns
+sum = 4102029 ns
+first = 329 ns
+second = 442 ns
+third = 300 ns
+len = 10000
+
+real	1m41.325s
+user	0m0.077s
+sys	0m0.257s
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230228-114624 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-114624
+ust channel default-channel enabled for session auto-20230228-114624
+Tracing started for session auto-20230228-114624
+min = 140 ns
+mean = 342.550700 ns
+max = 1210 ns
+median = 348.500000 ns
+std = 52.282496 ns
+sum = 3425507 ns
+first = 295 ns
+second = 267 ns
+third = 260 ns
+len = 10000
+
+real	1m41.387s
+user	0m0.065s
+sys	0m0.280s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-114624
+Destroying session auto-20230228-114624..
+Session auto-20230228-114624 destroyed
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230228-114807 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-traces-event/open-telemetry-off
+ust channel userspace_channel enabled for session auto-20230228-114807
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-114807
+min = 157 ns
+mean = 517.384000 ns
+max = 19791 ns
+median = 609.500000 ns
+std = 205.280907 ns
+sum = 5173840 ns
+first = 229 ns
+second = 364 ns
+third = 336 ns
+len = 10000
+
+real	1m41.434s
+user	0m0.087s
+sys	0m0.267s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-114807
+Destroying session auto-20230228-114807..
+Session auto-20230228-114807 destroyed
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.779 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.509 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.528 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.545 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.544 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4084ms
+rtt min/avg/max/mdev = 0.509/0.581/0.779/0.099 ms
+Session auto-20230228-114953 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-114953
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-114953
+min = 94 ns
+mean = 362.000500 ns
+max = 9807 ns
+median = 313.500000 ns
+std = 122.479649 ns
+sum = 3620005 ns
+first = 349 ns
+second = 232 ns
+third = 246 ns
+len = 10000
+
+real	1m41.425s
+user	0m0.070s
+sys	0m0.281s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-114953
+Destroying session auto-20230228-114953..
+Session auto-20230228-114953 destroyed
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   104  100   104    0     0  55348      0 --:--:-- --:--:-- --:--:--  101k
+min = 901000 ns
+mean = 1980805.845000 ns
+max = 13776447 ns
+median = 1807050.500000 ns
+std = 359651.104736 ns
+sum = 9904029225 ns
+first = 13776447 ns
+second = 1616820 ns
+third = 1646915 ns
+len = 5000
+
+real	1m0.521s
+user	0m7.130s
+sys	0m0.555s
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   104  100   104    0     0  47294      0 --:--:-- --:--:-- --:--:-- 52000
+min = 17633 ns
+mean = 123002.976600 ns
+max = 446639 ns
+median = 128272.500000 ns
+std = 12997.817372 ns
+sum = 1230029766 ns
+first = 446639 ns
+second = 59339 ns
+third = 108828 ns
+len = 10000
+
+real	1m42.514s
+user	0m1.816s
+sys	0m0.190s
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   103  100   103    0     0    102      0  0:00:01  0:00:01 --:--:--   102
+min = 1858896 ns
+mean = 2932552.470000 ns
+max = 28387083 ns
+median = 2897571.500000 ns
+std = 645408.134749 ns
+sum = 14662762350 ns
+first = 13622475 ns
+second = 2644333 ns
+third = 2163828 ns
+len = 5000
+
+real	1m5.325s
+user	0m8.025s
+sys	0m0.423s
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   103  100   103    0     0  49141      0 --:--:-- --:--:-- --:--:--  100k
+min = 44769 ns
+mean = 124817.355000 ns
+max = 449450 ns
+median = 126529.500000 ns
+std = 9840.105397 ns
+sum = 1248173550 ns
+first = 449450 ns
+second = 112984 ns
+third = 144029 ns
+len = 10000
+
+real	1m42.562s
+user	0m1.919s
+sys	0m0.142s
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 119790 ns
+mean = 301251.212800 ns
+max = 884440 ns
+median = 303374.000000 ns
+std = 23882.963414 ns
+sum = 3012512128 ns
+first = 884440 ns
+second = 141313 ns
+third = 148017 ns
+len = 10000
+
+real	1m44.367s
+user	0m3.159s
+sys	0m0.229s
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 38097 ns
+mean = 126204.882000 ns
+max = 811777 ns
+median = 124078.000000 ns
+std = 12128.227456 ns
+sum = 1262048820 ns
+first = 811777 ns
+second = 107157 ns
+third = 125399 ns
+len = 10000
+
+real	1m42.628s
+user	0m1.805s
+sys	0m0.221s
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-120034 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-120034
+ust channel default-channel enabled for session auto-20230228-120034
+Tracing started for session auto-20230228-120034
+min = 113922 ns
+mean = 296992.947000 ns
+max = 898926 ns
+median = 291430.500000 ns
+std = 21913.559324 ns
+sum = 2969929470 ns
+first = 898926 ns
+second = 262086 ns
+third = 294859 ns
+len = 10000
+
+real	1m44.355s
+user	0m3.119s
+sys	0m0.231s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-120034
+Destroying session auto-20230228-120034..
+Session auto-20230228-120034 destroyed
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-120220 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-120220
+ust channel default-channel enabled for session auto-20230228-120220
+Tracing started for session auto-20230228-120220
+min = 26636 ns
+mean = 124725.480000 ns
+max = 394185 ns
+median = 125949.500000 ns
+std = 9741.345955 ns
+sum = 1247254800 ns
+first = 394185 ns
+second = 26636 ns
+third = 102221 ns
+len = 10000
+
+real	1m42.636s
+user	0m1.740s
+sys	0m0.209s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-120220
+Destroying session auto-20230228-120220..
+Session auto-20230228-120220 destroyed
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-120403 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-120403
+ust channel userspace_channel enabled for session auto-20230228-120403
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-120403
+min = 97541 ns
+mean = 300132.776500 ns
+max = 733475 ns
+median = 295106.500000 ns
+std = 23475.724975 ns
+sum = 3001327765 ns
+first = 733475 ns
+second = 115541 ns
+third = 245599 ns
+len = 10000
+
+real	1m44.454s
+user	0m3.147s
+sys	0m0.245s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-120403
+Destroying session auto-20230228-120403..
+Session auto-20230228-120403 destroyed
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=1.19 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.549 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.565 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.574 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.528 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4071ms
+rtt min/avg/max/mdev = 0.528/0.680/1.186/0.253 ms
+Session auto-20230228-120553 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-120553
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-120553
+min = 126679 ns
+mean = 302502.078800 ns
+max = 1574917 ns
+median = 319239.000000 ns
+std = 25319.049561 ns
+sum = 3025020788 ns
+first = 1574917 ns
+second = 270876 ns
+third = 249065 ns
+len = 10000
+
+real	1m44.492s
+user	0m3.176s
+sys	0m0.251s
+Waiting for data availability..
+Tracing stopped for session auto-20230228-120553
+Destroying session auto-20230228-120553..
+Session auto-20230228-120553 destroyed
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-120739 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-120739
+ust channel userspace_channel enabled for session auto-20230228-120739
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-120739
+min = 53647 ns
+mean = 125980.813600 ns
+max = 398127 ns
+median = 128964.000000 ns
+std = 10184.335385 ns
+sum = 1259808136 ns
+first = 398127 ns
+second = 93794 ns
+third = 98760 ns
+len = 10000
+
+real	1m42.722s
+user	0m1.734s
+sys	0m0.242s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-120739
+Destroying session auto-20230228-120739..
+Session auto-20230228-120739 destroyed
+########## Run no 1 executable=benchmark-traces-event TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.634 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.455 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.505 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.557 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.553 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4088ms
+rtt min/avg/max/mdev = 0.455/0.540/0.634/0.059 ms
+Session auto-20230228-120926 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-120926
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-120926
+min = 39248 ns
+mean = 126817.697800 ns
+max = 371149 ns
+median = 122535.500000 ns
+std = 9801.743601 ns
+sum = 1268176978 ns
+first = 371149 ns
+second = 98902 ns
+third = 97875 ns
+len = 10000
+
+real	1m42.737s
+user	0m1.773s
+sys	0m0.233s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-120926
+Destroying session auto-20230228-120926..
+Session auto-20230228-120926 destroyed
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=OFF ##########
+Nothing to do
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+min = 133 ns
+mean = 446.823900 ns
+max = 19617 ns
+median = 418.000000 ns
+std = 214.314363 ns
+sum = 4468239 ns
+first = 268 ns
+second = 249 ns
+third = 246 ns
+len = 10000
+
+real	1m41.328s
+user	0m0.082s
+sys	0m0.255s
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230228-121251 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-121251
+ust channel default-channel enabled for session auto-20230228-121251
+Tracing started for session auto-20230228-121251
+min = 43 ns
+mean = 506.211900 ns
+max = 11095 ns
+median = 619.500000 ns
+std = 124.396932 ns
+sum = 5062119 ns
+first = 211 ns
+second = 95 ns
+third = 349 ns
+len = 10000
+
+real	1m41.350s
+user	0m0.072s
+sys	0m0.266s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-121251
+Destroying session auto-20230228-121251..
+Session auto-20230228-121251 destroyed
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230228-121434 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-traces-attribute/open-telemetry-off
+ust channel userspace_channel enabled for session auto-20230228-121434
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-121434
+min = 98 ns
+mean = 344.231800 ns
+max = 32072 ns
+median = 395.500000 ns
+std = 518.420954 ns
+sum = 3442318 ns
+first = 254 ns
+second = 211 ns
+third = 244 ns
+len = 10000
+
+real	1m41.430s
+user	0m0.067s
+sys	0m0.280s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-121434
+Destroying session auto-20230228-121434..
+Session auto-20230228-121434 destroyed
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.561 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.577 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.524 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.610 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 4 received, 20% packet loss, time 4086ms
+rtt min/avg/max/mdev = 0.524/0.568/0.610/0.030 ms
+Session auto-20230228-121621 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-121621
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-121621
+min = 48 ns
+mean = 341.346300 ns
+max = 23400 ns
+median = 388.000000 ns
+std = 306.065590 ns
+sum = 3413463 ns
+first = 311 ns
+second = 234 ns
+third = 219 ns
+len = 10000
+
+real	1m41.418s
+user	0m0.089s
+sys	0m0.260s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-121621
+Destroying session auto-20230228-121621..
+Session auto-20230228-121621 destroyed
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   104  100   104    0     0  54910      0 --:--:-- --:--:-- --:--:--  101k
+min = 870307 ns
+mean = 1946124.801200 ns
+max = 15080605 ns
+median = 1984526.500000 ns
+std = 397621.832118 ns
+sum = 9730624006 ns
+first = 15080605 ns
+second = 1391755 ns
+third = 2227202 ns
+len = 5000
+
+real	1m0.329s
+user	0m7.133s
+sys	0m0.433s
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   104  100   104    0     0  48964      0 --:--:-- --:--:-- --:--:--  101k
+min = 29460 ns
+mean = 128925.389700 ns
+max = 697707 ns
+median = 127551.000000 ns
+std = 14362.061766 ns
+sum = 1289253897 ns
+first = 446460 ns
+second = 122050 ns
+third = 115165 ns
+len = 10000
+
+real	1m42.573s
+user	0m1.886s
+sys	0m0.185s
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   101  100   101    0     0     99      0  0:00:01  0:00:01 --:--:--    99
+min = 1884831 ns
+mean = 2932381.257400 ns
+max = 30453453 ns
+median = 3000160.500000 ns
+std = 650246.763118 ns
+sum = 14661906287 ns
+first = 14345179 ns
+second = 2896815 ns
+third = 3318851 ns
+len = 5000
+
+real	1m5.327s
+user	0m7.866s
+sys	0m0.663s
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   101  100   101    0     0  43893      0 --:--:-- --:--:-- --:--:-- 50500
+min = 28337 ns
+mean = 128236.963200 ns
+max = 458649 ns
+median = 124958.000000 ns
+std = 9494.597349 ns
+sum = 1282369632 ns
+first = 458649 ns
+second = 147089 ns
+third = 117942 ns
+len = 10000
+
+real	1m42.589s
+user	0m1.897s
+sys	0m0.197s
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 86941 ns
+mean = 299812.467700 ns
+max = 806690 ns
+median = 296249.000000 ns
+std = 23010.209250 ns
+sum = 2998124677 ns
+first = 806690 ns
+second = 199820 ns
+third = 260904 ns
+len = 10000
+
+real	1m44.354s
+user	0m3.138s
+sys	0m0.233s
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 52883 ns
+mean = 131275.921100 ns
+max = 440811 ns
+median = 134418.500000 ns
+std = 10224.726735 ns
+sum = 1312759211 ns
+first = 440811 ns
+second = 138965 ns
+third = 108243 ns
+len = 10000
+
+real	1m42.675s
+user	0m1.764s
+sys	0m0.261s
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-122702 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-122702
+ust channel default-channel enabled for session auto-20230228-122702
+Tracing started for session auto-20230228-122702
+min = 106527 ns
+mean = 296230.813500 ns
+max = 746464 ns
+median = 301181.500000 ns
+std = 21266.535385 ns
+sum = 2962308135 ns
+first = 746464 ns
+second = 263130 ns
+third = 147362 ns
+len = 10000
+
+real	1m44.340s
+user	0m3.095s
+sys	0m0.241s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-122702
+Destroying session auto-20230228-122702..
+Session auto-20230228-122702 destroyed
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-122848 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-122848
+ust channel default-channel enabled for session auto-20230228-122848
+Tracing started for session auto-20230228-122848
+min = 23334 ns
+mean = 132062.426800 ns
+max = 412944 ns
+median = 132345.000000 ns
+std = 10929.516861 ns
+sum = 1320624268 ns
+first = 412944 ns
+second = 23334 ns
+third = 107102 ns
+len = 10000
+
+real	1m42.715s
+user	0m1.774s
+sys	0m0.260s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-122848
+Destroying session auto-20230228-122848..
+Session auto-20230228-122848 destroyed
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-123031 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-123031
+ust channel userspace_channel enabled for session auto-20230228-123031
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-123031
+min = 118068 ns
+mean = 303352.702100 ns
+max = 1234497 ns
+median = 305376.000000 ns
+std = 23140.960354 ns
+sum = 3033527021 ns
+first = 1234497 ns
+second = 235725 ns
+third = 245808 ns
+len = 10000
+
+real	1m44.494s
+user	0m3.199s
+sys	0m0.232s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-123031
+Destroying session auto-20230228-123031..
+Session auto-20230228-123031 destroyed
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.586 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.583 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.528 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.923 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.496 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4066ms
+rtt min/avg/max/mdev = 0.496/0.623/0.923/0.153 ms
+Session auto-20230228-123221 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-123221
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-123221
+min = 133436 ns
+mean = 299561.594800 ns
+max = 726585 ns
+median = 301165.000000 ns
+std = 21394.783197 ns
+sum = 2995615948 ns
+first = 726585 ns
+second = 236076 ns
+third = 241380 ns
+len = 10000
+
+real	1m44.458s
+user	0m3.105s
+sys	0m0.288s
+Waiting for data availability..
+Tracing stopped for session auto-20230228-123221
+Destroying session auto-20230228-123221..
+Session auto-20230228-123221 destroyed
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-123406 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-123406
+ust channel userspace_channel enabled for session auto-20230228-123406
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-123406
+min = 52457 ns
+mean = 131805.581500 ns
+max = 380307 ns
+median = 127321.500000 ns
+std = 10221.198723 ns
+sum = 1318055815 ns
+first = 380307 ns
+second = 106300 ns
+third = 103757 ns
+len = 10000
+
+real	1m42.783s
+user	0m1.793s
+sys	0m0.243s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-123406
+Destroying session auto-20230228-123406..
+Session auto-20230228-123406 destroyed
+########## Run no 1 executable=benchmark-traces-attribute TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.532 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.526 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.569 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.614 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.505 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4097ms
+rtt min/avg/max/mdev = 0.505/0.549/0.614/0.038 ms
+Session auto-20230228-123554 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-123554
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-123554
+min = 55489 ns
+mean = 133288.804800 ns
+max = 860570 ns
+median = 133459.000000 ns
+std = 12360.554743 ns
+sum = 1332888048 ns
+first = 860570 ns
+second = 99238 ns
+third = 102765 ns
+len = 10000
+
+real	1m42.792s
+user	0m1.843s
+sys	0m0.221s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-123554
+Destroying session auto-20230228-123554..
+Session auto-20230228-123554 destroyed
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=OFF ##########
+Nothing to do
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+min = 152 ns
+mean = 384.563100 ns
+max = 17371 ns
+median = 429.500000 ns
+std = 253.158002 ns
+sum = 3845631 ns
+first = 293 ns
+second = 193 ns
+third = 318 ns
+len = 10000
+
+real	1m41.328s
+user	0m0.066s
+sys	0m0.276s
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230228-123919 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-123919
+ust channel default-channel enabled for session auto-20230228-123919
+Tracing started for session auto-20230228-123919
+min = 180 ns
+mean = 497.940300 ns
+max = 24187 ns
+median = 519.000000 ns
+std = 305.891309 ns
+sum = 4979403 ns
+first = 439 ns
+second = 222 ns
+third = 354 ns
+len = 10000
+
+real	1m41.364s
+user	0m0.049s
+sys	0m0.296s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-123919
+Destroying session auto-20230228-123919..
+Session auto-20230228-123919 destroyed
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230228-124102 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-traces-span-context/open-telemetry-off
+ust channel userspace_channel enabled for session auto-20230228-124102
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-124102
+min = 226 ns
+mean = 513.508200 ns
+max = 65714 ns
+median = 545.000000 ns
+std = 772.994367 ns
+sum = 5135082 ns
+first = 278 ns
+second = 318 ns
+third = 331 ns
+len = 10000
+
+real	1m41.439s
+user	0m0.081s
+sys	0m0.271s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-124102
+Destroying session auto-20230228-124102..
+Session auto-20230228-124102 destroyed
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.563 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.557 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.559 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.547 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 4 received, 20% packet loss, time 4099ms
+rtt min/avg/max/mdev = 0.547/0.556/0.563/0.005 ms
+Session auto-20230228-124249 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-124249
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-124249
+min = 163 ns
+mean = 347.054300 ns
+max = 19221 ns
+median = 315.000000 ns
+std = 195.904055 ns
+sum = 3470543 ns
+first = 348 ns
+second = 263 ns
+third = 257 ns
+len = 10000
+
+real	1m41.435s
+user	0m0.100s
+sys	0m0.258s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-124249
+Destroying session auto-20230228-124249..
+Session auto-20230228-124249 destroyed
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   104  100   104    0     0  35653      0 --:--:-- --:--:-- --:--:-- 52000
+min = 991018 ns
+mean = 1984216.825000 ns
+max = 4297945 ns
+median = 1871708.000000 ns
+std = 322615.669376 ns
+sum = 9921084125 ns
+first = 1156135 ns
+second = 1750862 ns
+third = 1401601 ns
+len = 5000
+
+real	1m0.536s
+user	0m7.307s
+sys	0m0.384s
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   104  100   104    0     0  43734      0 --:--:-- --:--:-- --:--:-- 52000
+min = 28062 ns
+mean = 127442.704100 ns
+max = 291862 ns
+median = 124728.000000 ns
+std = 12970.925784 ns
+sum = 1274427041 ns
+first = 34306 ns
+second = 114468 ns
+third = 116948 ns
+len = 10000
+
+real	1m42.557s
+user	0m1.917s
+sys	0m0.150s
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   103  100   103    0     0    101      0  0:00:01  0:00:01 --:--:--   102
+min = 1794353 ns
+mean = 2925078.202600 ns
+max = 12262856 ns
+median = 2899590.000000 ns
+std = 397394.048641 ns
+sum = 14625391013 ns
+first = 2645650 ns
+second = 2453540 ns
+third = 2908064 ns
+len = 5000
+
+real	1m5.303s
+user	0m8.020s
+sys	0m0.528s
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   102  100   102    0     0  35087      0 --:--:-- --:--:-- --:--:-- 51000
+min = 29295 ns
+mean = 125678.789700 ns
+max = 285135 ns
+median = 122508.000000 ns
+std = 8647.845766 ns
+sum = 1256787897 ns
+first = 29295 ns
+second = 115293 ns
+third = 112224 ns
+len = 10000
+
+real	1m42.574s
+user	0m1.888s
+sys	0m0.178s
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 65931 ns
+mean = 297426.369800 ns
+max = 600396 ns
+median = 299846.500000 ns
+std = 21552.906394 ns
+sum = 2974263698 ns
+first = 89964 ns
+second = 65931 ns
+third = 253990 ns
+len = 10000
+
+real	1m44.342s
+user	0m3.152s
+sys	0m0.201s
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 53346 ns
+mean = 127564.428100 ns
+max = 312588 ns
+median = 153031.000000 ns
+std = 9264.119333 ns
+sum = 1275644281 ns
+first = 71344 ns
+second = 104867 ns
+third = 102910 ns
+len = 10000
+
+real	1m42.641s
+user	0m1.737s
+sys	0m0.234s
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-125331 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-125331
+ust channel default-channel enabled for session auto-20230228-125331
+Tracing started for session auto-20230228-125331
+min = 127055 ns
+mean = 298775.213100 ns
+max = 499834 ns
+median = 292835.000000 ns
+std = 21184.214096 ns
+sum = 2987752131 ns
+first = 130259 ns
+second = 163486 ns
+third = 249669 ns
+len = 10000
+
+real	1m44.371s
+user	0m3.144s
+sys	0m0.223s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-125331
+Destroying session auto-20230228-125331..
+Session auto-20230228-125331 destroyed
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-125516 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-125516
+ust channel default-channel enabled for session auto-20230228-125516
+Tracing started for session auto-20230228-125516
+min = 26933 ns
+mean = 128835.951300 ns
+max = 307569 ns
+median = 129146.500000 ns
+std = 10114.636680 ns
+sum = 1288359513 ns
+first = 26933 ns
+second = 56815 ns
+third = 104219 ns
+len = 10000
+
+real	1m42.671s
+user	0m1.786s
+sys	0m0.216s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-125516
+Destroying session auto-20230228-125516..
+Session auto-20230228-125516 destroyed
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-125659 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-125659
+ust channel userspace_channel enabled for session auto-20230228-125659
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-125659
+min = 62853 ns
+mean = 297456.191800 ns
+max = 602000 ns
+median = 293931.000000 ns
+std = 21333.311802 ns
+sum = 2974561918 ns
+first = 78752 ns
+second = 184572 ns
+third = 241424 ns
+len = 10000
+
+real	1m44.442s
+user	0m3.074s
+sys	0m0.296s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-125659
+Destroying session auto-20230228-125659..
+Session auto-20230228-125659 destroyed
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.648 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.710 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.590 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.481 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.773 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4096ms
+rtt min/avg/max/mdev = 0.481/0.640/0.773/0.100 ms
+Session auto-20230228-125849 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-125849
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-125849
+min = 63804 ns
+mean = 294986.312400 ns
+max = 612755 ns
+median = 299862.500000 ns
+std = 22395.621651 ns
+sum = 2949863124 ns
+first = 130250 ns
+second = 256024 ns
+third = 240476 ns
+len = 10000
+
+real	1m44.416s
+user	0m3.065s
+sys	0m0.282s
+Waiting for data availability..
+Tracing stopped for session auto-20230228-125849
+Destroying session auto-20230228-125849..
+Session auto-20230228-125849 destroyed
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-130034 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-130034
+ust channel userspace_channel enabled for session auto-20230228-130034
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-130034
+min = 25116 ns
+mean = 126248.820000 ns
+max = 241387 ns
+median = 127395.500000 ns
+std = 9136.587812 ns
+sum = 1262488200 ns
+first = 25116 ns
+second = 55447 ns
+third = 99820 ns
+len = 10000
+
+real	1m42.725s
+user	0m1.712s
+sys	0m0.266s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-130034
+Destroying session auto-20230228-130034..
+Session auto-20230228-130034 destroyed
+########## Run no 1 executable=benchmark-traces-span-context TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.581 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.591 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.483 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.510 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.532 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4097ms
+rtt min/avg/max/mdev = 0.483/0.539/0.591/0.041 ms
+Session auto-20230228-130222 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-130222
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-130222
+min = 15305 ns
+mean = 127748.108300 ns
+max = 319505 ns
+median = 124470.500000 ns
+std = 9205.809695 ns
+sum = 1277481083 ns
+first = 33014 ns
+second = 15305 ns
+third = 100532 ns
+len = 10000
+
+real	1m42.739s
+user	0m1.788s
+sys	0m0.198s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-130222
+Destroying session auto-20230228-130222..
+Session auto-20230228-130222 destroyed
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=OFF ##########
+Nothing to do
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.002s
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session ##########
+min = 94 ns
+mean = 336.973500 ns
+max = 15873 ns
+median = 537.000000 ns
+std = 278.362236 ns
+sum = 3369735 ns
+first = 235 ns
+second = 258 ns
+third = 271 ns
+len = 10000
+
+real	1m41.302s
+user	0m0.097s
+sys	0m0.233s
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled ##########
+Session auto-20230228-130547 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-130547
+ust channel default-channel enabled for session auto-20230228-130547
+Tracing started for session auto-20230228-130547
+min = 153 ns
+mean = 498.724600 ns
+max = 18405 ns
+median = 591.000000 ns
+std = 214.873009 ns
+sum = 4987246 ns
+first = 254 ns
+second = 213 ns
+third = 347 ns
+len = 10000
+
+real	1m41.348s
+user	0m0.069s
+sys	0m0.269s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-130547
+Destroying session auto-20230228-130547..
+Session auto-20230228-130547 destroyed
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled ##########
+Session auto-20230228-130730 created.
+Traces will be output to /home/eysan/Desktop/opentelemetry-c-performance/ctf-traces/benchmark-traces-nested-span/open-telemetry-off
+ust channel userspace_channel enabled for session auto-20230228-130730
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-130730
+min = 170 ns
+mean = 333.688000 ns
+max = 1353 ns
+median = 323.500000 ns
+std = 47.723726 ns
+sum = 3336880 ns
+first = 262 ns
+second = 314 ns
+third = 269 ns
+len = 10000
+
+real	1m41.420s
+user	0m0.065s
+sys	0m0.281s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-130730
+Destroying session auto-20230228-130730..
+Session auto-20230228-130730 destroyed
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.784 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.596 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.504 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.570 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.589 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4078ms
+rtt min/avg/max/mdev = 0.504/0.608/0.784/0.093 ms
+Session auto-20230228-130916 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-130916
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-130916
+min = 152 ns
+mean = 481.964700 ns
+max = 1165 ns
+median = 472.000000 ns
+std = 60.136929 ns
+sum = 4819647 ns
+first = 298 ns
+second = 329 ns
+third = 333 ns
+len = 10000
+
+real	1m41.422s
+user	0m0.038s
+sys	0m0.315s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-130916
+Destroying session auto-20230228-130916..
+Session auto-20230228-130916 destroyed
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   103  100   103    0     0  35541      0 --:--:-- --:--:-- --:--:-- 51500
+min = 808975 ns
+mean = 1739042.590200 ns
+max = 14417517 ns
+median = 1484153.000000 ns
+std = 380857.738044 ns
+sum = 8695212951 ns
+first = 14417517 ns
+second = 2061032 ns
+third = 1673722 ns
+len = 5000
+
+real	1m6.876s
+user	0m11.561s
+sys	0m0.824s
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   103  100   103    0     0  42299      0 --:--:-- --:--:-- --:--:-- 51500
+min = 13157 ns
+mean = 45289.692300 ns
+max = 330311 ns
+median = 46193.000000 ns
+std = 8317.399355 ns
+sum = 452896923 ns
+first = 81313 ns
+second = 55527 ns
+third = 44413 ns
+len = 10000
+
+real	1m42.740s
+user	0m2.243s
+sys	0m0.195s
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   102  100   102    0     0  31471      0 --:--:-- --:--:-- --:--:-- 34000
+min = 1808936 ns
+mean = 2794460.473000 ns
+max = 13930159 ns
+median = 2397171.000000 ns
+std = 586556.852818 ns
+sum = 13972302365 ns
+first = 13846746 ns
+second = 2714024 ns
+third = 4208841 ns
+len = 5000
+
+real	1m17.759s
+user	0m13.866s
+sys	0m0.823s
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   102  100   102    0     0  40556      0 --:--:-- --:--:-- --:--:-- 51000
+min = 15814 ns
+mean = 45875.676200 ns
+max = 255618 ns
+median = 44053.000000 ns
+std = 6999.481241 ns
+sum = 458756762 ns
+first = 85216 ns
+second = 44606 ns
+third = 44823 ns
+len = 10000
+
+real	1m42.830s
+user	0m2.326s
+sys	0m0.181s
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 80582 ns
+mean = 213901.645000 ns
+max = 539010 ns
+median = 213687.500000 ns
+std = 19669.574359 ns
+sum = 2139016450 ns
+first = 528985 ns
+second = 211133 ns
+third = 149020 ns
+len = 10000
+
+real	1m45.554s
+user	0m4.392s
+sys	0m0.179s
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
+min = 9753 ns
+mean = 46191.249500 ns
+max = 219825 ns
+median = 44499.500000 ns
+std = 7027.259323 ns
+sum = 461912495 ns
+first = 79786 ns
+second = 9753 ns
+third = 41679 ns
+len = 10000
+
+real	1m42.912s
+user	0m2.234s
+sys	0m0.238s
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-132017 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-132017
+ust channel default-channel enabled for session auto-20230228-132017
+Tracing started for session auto-20230228-132017
+min = 72448 ns
+mean = 214209.346100 ns
+max = 559900 ns
+median = 204304.500000 ns
+std = 20844.908756 ns
+sum = 2142093461 ns
+first = 432701 ns
+second = 73432 ns
+third = 184958 ns
+len = 10000
+
+real	1m45.567s
+user	0m4.343s
+sys	0m0.220s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-132017
+Destroying session auto-20230228-132017..
+Session auto-20230228-132017 destroyed
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled ##########
+Session auto-20230228-132204 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-132204
+ust channel default-channel enabled for session auto-20230228-132204
+Tracing started for session auto-20230228-132204
+min = 9629 ns
+mean = 45110.322600 ns
+max = 196487 ns
+median = 45306.500000 ns
+std = 6197.446773 ns
+sum = 451103226 ns
+first = 196487 ns
+second = 9629 ns
+third = 40549 ns
+len = 10000
+
+real	1m42.908s
+user	0m2.238s
+sys	0m0.195s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-132204
+Destroying session auto-20230228-132204..
+Session auto-20230228-132204 destroyed
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-132347 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-132347
+ust channel userspace_channel enabled for session auto-20230228-132347
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-132347
+min = 49168 ns
+mean = 215699.435900 ns
+max = 517062 ns
+median = 219842.000000 ns
+std = 19202.864954 ns
+sum = 2156994359 ns
+first = 517062 ns
+second = 49168 ns
+third = 194223 ns
+len = 10000
+
+real	1m45.672s
+user	0m4.406s
+sys	0m0.206s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-132347
+Destroying session auto-20230228-132347..
+Session auto-20230228-132347 destroyed
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=OFF LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.846 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.487 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.627 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.605 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.563 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4084ms
+rtt min/avg/max/mdev = 0.487/0.625/0.846/0.120 ms
+Session auto-20230228-132538 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-132538
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-132538
+min = 77916 ns
+mean = 218478.759500 ns
+max = 494715 ns
+median = 212431.000000 ns
+std = 21022.111118 ns
+sum = 2184787595 ns
+first = 426754 ns
+second = 147071 ns
+third = 186269 ns
+len = 10000
+
+real	1m45.766s
+user	0m4.441s
+sys	0m0.251s
+Waiting for data availability...
+Tracing stopped for session auto-20230228-132538
+Destroying session auto-20230228-132538..
+Session auto-20230228-132538 destroyed
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20230228-132725 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20230228-132725
+ust channel userspace_channel enabled for session auto-20230228-132725
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-132725
+min = 9002 ns
+mean = 46331.645900 ns
+max = 178585 ns
+median = 45234.000000 ns
+std = 6629.744661 ns
+sum = 463316459 ns
+first = 149779 ns
+second = 34104 ns
+third = 41343 ns
+len = 10000
+
+real	1m42.994s
+user	0m2.218s
+sys	0m0.237s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-132725
+Destroying session auto-20230228-132725..
+Session auto-20230228-132725 destroyed
+########## Run no 1 executable=benchmark-traces-nested-span TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON BATCH_SPAN_PROCESSOR_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.708 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.533 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.573 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.517 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.529 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4075ms
+rtt min/avg/max/mdev = 0.517/0.572/0.708/0.070 ms
+Session auto-20230228-132913 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust channel userspace_channel enabled for session auto-20230228-132913
+ust event opentelemetry:* created in channel userspace_channel
+Tracing started for session auto-20230228-132913
+min = 15768 ns
+mean = 44999.666100 ns
+max = 177822 ns
+median = 45078.000000 ns
+std = 6478.758065 ns
+sum = 449996661 ns
+first = 74929 ns
+second = 41428 ns
+third = 38932 ns
+len = 10000
+
+real	1m42.977s
+user	0m2.262s
+sys	0m0.185s
+Waiting for data availability.
+Tracing stopped for session auto-20230228-132913
+Destroying session auto-20230228-132913..
+Session auto-20230228-132913 destroyed
+Done!

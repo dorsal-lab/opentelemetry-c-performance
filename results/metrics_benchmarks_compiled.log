@@ -1,0 +1,110 @@
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=OFF
+duration = 114541201138.8
+real = 114542700000.0
+user = 114537400000.0
+sys = 1600000.0
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session
+duration = 114509173104.9
+real = 114694700000.0
+user = 114512300000.0
+sys = 16000000.0
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled
+duration = 114479987017.8
+real = 114835500000.0
+user = 114480100000.0
+sys = 22000000.0
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled
+duration = 114481123475.2
+real = 114835500000.0
+user = 114484900000.0
+sys = 18400000.0
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in remote lttng session ust event enabled
+duration = 114545211114.0
+real = 114889000000.0
+user = 114544000000.0
+sys = 26400000.0
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector
+duration = 115263640715.3
+real = 115288400000.0
+user = 115805500000.0
+sys = 57100000.0
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector
+duration = 115289853197.6
+real = 115315300000.0
+user = 115815700000.0
+sys = 72400000.0
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session
+duration = 114681381159.8
+real = 114710900000.0
+user = 114799700000.0
+sys = 42800000.0
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled
+duration = 114663114819.8
+real = 114737600000.0
+user = 114786300000.0
+sys = 45600000.0
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled
+duration = 114711609355.5
+real = 114784400000.0
+user = 114836000000.0
+sys = 46000000.0
+benchmark-metrics-observable-up-down-counter-500 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled
+duration = 114648509661.1
+real = 114726500000.0
+user = 114775500000.0
+sys = 46000000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=OFF
+duration = 114538587630.7
+real = 114540000000.0
+user = 114535000000.0
+sys = 800000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session
+duration = 114494900199.2
+real = 115035400000.0
+user = 114495600000.0
+sys = 18800000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled
+duration = 114436203115.9
+real = 115071100000.0
+user = 114436000000.0
+sys = 19200000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled
+duration = 114519622415.5
+real = 115071100000.0
+user = 114521600000.0
+sys = 17600000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in remote lttng session ust event enabled
+duration = 114466127519.4
+real = 115077600000.0
+user = 114471500000.0
+sys = 19200000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector
+duration = 114960380369.6
+real = 114985200000.0
+user = 115287200000.0
+sys = 31200000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector
+duration = 115029764340.1
+real = 115054600000.0
+user = 115348000000.0
+sys = 41800000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session
+duration = 114583819759.6
+real = 114613700000.0
+user = 114650800000.0
+sys = 32800000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled
+duration = 114588457247.8
+real = 114661500000.0
+user = 114652500000.0
+sys = 40400000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled
+duration = 114681243712.4
+real = 114755300000.0
+user = 114748900000.0
+sys = 38000000.0
+benchmark-metrics-observable-up-down-counter-1000 TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled
+duration = 114571802026.8
+real = 114651600000.0
+user = 114649600000.0
+sys = 34000000.0
