@@ -26,7 +26,7 @@ int main() {
 
 #elif OPENTELEMETRY_C_TRACING_ENABLED
 
-#include <opentelemetry_c.h>
+#include <opentelemetry_c/opentelemetry_c.h>
 
 int64_t counter_callback() { return 0; }
 

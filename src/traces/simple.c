@@ -10,7 +10,7 @@ int main() {
 
 #include "common/utils.h"
 
-#include <opentelemetry_c.h>
+#include <opentelemetry_c/opentelemetry_c.h>
 
 #include <stdlib.h>
 #include <time.h>
