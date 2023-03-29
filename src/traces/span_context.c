@@ -17,22 +17,22 @@ int main() {
 #include <unistd.h>
 
 int main() {
-  init_tracer_provider("opentelemetry-c-performance", "0.0.1", "",
+  otelc_init_tracer_provider("opentelemetry-c-performance", "0.0.1", "",
                        "machine-0.0.1");
 
-  void *tracer = get_tracer();
+  void *tracer = otelc_get_tracer();
 
-  void *remote_span = start_span(tracer, "span", SPAN_KIND_INTERNAL, "");
-  char *remote_span_ctx = extract_context_from_current_span(remote_span);
-  end_span(remote_span);
+  void *remote_span = otelc_start_span(tracer, "span", OTELC_SPAN_KIND_INTERNAL, "");
+  char *remote_span_ctx = otelc_extract_context_from_current_span(remote_span);
+  otelc_end_span(remote_span);
 
   long long *nano_durations = malloc(N_SPANS_TO_CREATE * sizeof(long long));
   struct timespec start, end;
   for (int i = 0; i < N_SPANS_TO_CREATE; i++) {
     clock_gettime(CLOCK_MONOTONIC_RAW, &start);
     void *span =
-        start_span(tracer, "span", SPAN_KIND_INTERNAL, remote_span_ctx);
-    end_span(span);
+        otelc_start_span(tracer, "span", OTELC_SPAN_KIND_INTERNAL, remote_span_ctx);
+    otelc_end_span(span);
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
     struct timespec duration = timespec_diff(start, end);
     nano_durations[i] = (1000000000LL * duration.tv_sec + duration.tv_nsec);
@@ -45,7 +45,7 @@ int main() {
   compute_array_stats(nano_durations, N_SPANS_TO_CREATE, &stats);
   print_array_stats(&stats, "ns");
   free(nano_durations);
-  destroy_tracer(tracer);
+  otelc_destroy_tracer(tracer);
 
   return 0;
 }

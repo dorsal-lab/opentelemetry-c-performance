@@ -32,11 +32,11 @@ int64_t counter_callback() { return 0; }
 
 int main() {
   struct timespec start, end;
-  init_metrics_provider("opentelemetry-c-performance", "0.0.1", "",
+  otelc_init_metrics_provider("opentelemetry-c-performance", "0.0.1", "",
                         "machine-0.0.1", 1000, 500);
-  void *counter = create_int64_observable_up_down_counter("example-counter",
+  void *counter = otelc_create_int64_observable_up_down_counter("example-counter",
                                                           "description...");
-  void *registration = int64_observable_up_down_counter_register_callback(
+  void *registration = otelc_int64_observable_up_down_counter_register_callback(
       counter, &counter_callback);
 
   printf("Starting program execution...\n");
@@ -48,8 +48,8 @@ int main() {
   long long counter_execution_duration = 1000000000LL * duration.tv_sec + duration.tv_nsec;
   printf("duration = %lld ns\n", counter_execution_duration);
 
-  int64_observable_up_down_counter_cancel_registration(counter, registration);
-  destroy_observable_up_down_counter(counter);
+  otelc_int64_observable_up_down_counter_cancel_registration(counter, registration);
+  otelc_destroy_observable_up_down_counter(counter);
 }
 
 #else
