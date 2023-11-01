@@ -64,6 +64,27 @@ function(add_metrics_benchmark_executable executable_name executable_src)
             )
 endfunction()
 
+function(add_logs_benchmark_executable executable_name executable_src)
+    add_executable("${executable_name}")
+    target_include_directories("${executable_name}" PRIVATE include)
+    target_link_libraries("${executable_name}" PRIVATE m)
+    if (TRACING_ENABLED)
+        target_compile_definitions("${executable_name}" PRIVATE TRACING_ENABLED)
+        if (OPENTELEMETRY_C_TRACING_ENABLED)
+            target_link_libraries("${executable_name}" PRIVATE opentelemetry-c)
+            target_compile_definitions("${executable_name}" PRIVATE OPENTELEMETRY_C_TRACING_ENABLED)
+        else ()
+            target_link_libraries("${executable_name}" PRIVATE lttng-ust dl)
+            target_sources("${executable_name}" PRIVATE src/common/telemetry_data_tracepoint.c)
+        endif ()
+        target_compile_definitions("${executable_name}" PRIVATE N_LOGS_TO_CREATE=20000)
+    endif ()
+    target_sources("${executable_name}" PRIVATE
+            "${executable_src}"
+            src/common/utils.c
+    )
+endfunction()
+
 # benchmark-traces-simple
 add_traces_benchmark_executable(benchmark-traces-simple src/traces/simple.c)
 
@@ -87,3 +108,6 @@ add_metrics_benchmark_executable(benchmark-metrics-observable-up-down-counter-50
 
 # benchmark-metrics-observable-up-down-counter-1000
 add_metrics_benchmark_executable(benchmark-metrics-observable-up-down-counter-1000 src/metrics/observable_up_down_counter_1000.c)
+
+# benchmark-logs-simple
+add_logs_benchmark_executable(benchmark-logs-simple src/logs/simple.c)
