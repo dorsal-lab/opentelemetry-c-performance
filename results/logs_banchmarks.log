@@ -991,123 +991,403 @@ Session auto-20231101-125209 destroyed
 ########## Run no 1 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to localhost port 13133 after 0 ms: Couldn't connect to server
-Local collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   100  100   100    0     0  68540      0 --:--:-- --:--:-- --:--:--   97k
+min = 1099163 ns
+mean = 1923770.427200 ns
+max = 18879117 ns
+median = 1987244.000000 ns
+std = 396080.062305 ns
+sum = 9618852136 ns
+first = 18879117 ns
+second = 1566171 ns
+third = 1366692 ns
+len = 5000
+
+real	1m0.172s
+user	0m7.152s
+sys	0m0.439s
 ########## Run no 2 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to localhost port 13133 after 0 ms: Couldn't connect to server
-Local collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   100  100   100    0     0  76923      0 --:--:-- --:--:-- --:--:--   97k
+min = 1043988 ns
+mean = 1935727.985400 ns
+max = 11597965 ns
+median = 1915691.000000 ns
+std = 345111.676240 ns
+sum = 9678639927 ns
+first = 11597965 ns
+second = 2688754 ns
+third = 1628760 ns
+len = 5000
+
+real	1m0.228s
+user	0m7.190s
+sys	0m0.471s
 ########## Run no 3 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to localhost port 13133 after 0 ms: Couldn't connect to server
-Local collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   100  100   100    0     0  68399      0 --:--:-- --:--:-- --:--:--   97k
+min = 1106387 ns
+mean = 1932006.780600 ns
+max = 11912917 ns
+median = 1993639.000000 ns
+std = 341181.233201 ns
+sum = 9660033903 ns
+first = 11912917 ns
+second = 1658439 ns
+third = 1273278 ns
+len = 5000
+
+real	1m0.210s
+user	0m7.203s
+sys	0m0.421s
 ########## Run no 4 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to localhost port 13133 after 0 ms: Couldn't connect to server
-Local collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   100  100   100    0     0  63051      0 --:--:-- --:--:-- --:--:--   97k
+min = 1147128 ns
+mean = 1944596.315600 ns
+max = 12076755 ns
+median = 2196250.000000 ns
+std = 352425.779644 ns
+sum = 9722981578 ns
+first = 12076755 ns
+second = 1606348 ns
+third = 1286373 ns
+len = 5000
+
+real	1m0.275s
+user	0m7.111s
+sys	0m0.603s
 ########## Run no 5 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to localhost port 13133 after 0 ms: Couldn't connect to server
-Local collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   100  100   100    0     0  79491      0 --:--:-- --:--:-- --:--:--   97k
+min = 880700 ns
+mean = 1953924.355200 ns
+max = 11474727 ns
+median = 2148830.500000 ns
+std = 357650.875127 ns
+sum = 9769621776 ns
+first = 11474727 ns
+second = 1406773 ns
+third = 1884474 ns
+len = 5000
+
+real	1m0.320s
+user	0m7.202s
+sys	0m0.514s
 ########## Run no 6 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to localhost port 13133 after 0 ms: Couldn't connect to server
-Local collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   100  100   100    0     0  74626      0 --:--:-- --:--:-- --:--:--   97k
+min = 924111 ns
+mean = 1944263.483800 ns
+max = 13219075 ns
+median = 1851569.000000 ns
+std = 357353.542216 ns
+sum = 9721317419 ns
+first = 13219075 ns
+second = 1706473 ns
+third = 1993996 ns
+len = 5000
+
+real	1m0.273s
+user	0m7.361s
+sys	0m0.345s
 ########## Run no 7 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to localhost port 13133 after 0 ms: Couldn't connect to server
-Local collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   100  100   100    0     0  70077      0 --:--:-- --:--:-- --:--:--   97k
+min = 1150003 ns
+mean = 1940692.328000 ns
+max = 11978241 ns
+median = 2129389.000000 ns
+std = 352314.412351 ns
+sum = 9703461640 ns
+first = 11978241 ns
+second = 2090022 ns
+third = 2173540 ns
+len = 5000
+
+real	1m0.256s
+user	0m7.337s
+sys	0m0.333s
 ########## Run no 8 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to localhost port 13133 after 0 ms: Couldn't connect to server
-Local collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   100  100   100    0     0  80256      0 --:--:-- --:--:-- --:--:--   97k
+min = 1039612 ns
+mean = 1925715.271800 ns
+max = 12416871 ns
+median = 1884753.500000 ns
+std = 347225.117197 ns
+sum = 9628576359 ns
+first = 12416871 ns
+second = 1496752 ns
+third = 1648924 ns
+len = 5000
+
+real	1m0.176s
+user	0m7.172s
+sys	0m0.423s
 ########## Run no 9 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to localhost port 13133 after 0 ms: Couldn't connect to server
-Local collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    97  100    97    0     0  66166      0 --:--:-- --:--:-- --:--:-- 97000
+min = 1115092 ns
+mean = 1930113.770800 ns
+max = 12244483 ns
+median = 1797561.000000 ns
+std = 353182.243144 ns
+sum = 9650568854 ns
+first = 12244483 ns
+second = 1879770 ns
+third = 2146716 ns
+len = 5000
+
+real	1m0.200s
+user	0m7.234s
+sys	0m0.380s
 ########## Run no 10 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to localhost port 13133 after 0 ms: Couldn't connect to server
-Local collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   100  100   100    0     0  64641      0 --:--:-- --:--:-- --:--:--   97k
+min = 1162597 ns
+mean = 1942426.802400 ns
+max = 14075368 ns
+median = 1942680.000000 ns
+std = 366042.981229 ns
+sum = 9712134012 ns
+first = 14075368 ns
+second = 1646119 ns
+third = 2351263 ns
+len = 5000
+
+real	1m0.257s
+user	0m7.179s
+sys	0m0.481s
 ########## Run no 1 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to 132.207.72.28 port 13133 after 1 ms: Couldn't connect to server
-Remote collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    99  100    99    0     0  14507      0 --:--:-- --:--:-- --:--:-- 16500
+min = 971322 ns
+mean = 1935101.640800 ns
+max = 12112564 ns
+median = 2358447.500000 ns
+std = 349013.067129 ns
+sum = 9675508204 ns
+first = 12112564 ns
+second = 1966838 ns
+third = 1555449 ns
+len = 5000
+
+real	1m0.216s
+user	0m7.195s
+sys	0m0.466s
 ########## Run no 2 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to 132.207.72.28 port 13133 after 0 ms: Couldn't connect to server
-Remote collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    99  100    99    0     0  30659      0 --:--:-- --:--:-- --:--:-- 33000
+min = 908226 ns
+mean = 1929224.259200 ns
+max = 11823341 ns
+median = 1936226.000000 ns
+std = 360586.946444 ns
+sum = 9646121296 ns
+first = 11823341 ns
+second = 1502951 ns
+third = 1048255 ns
+len = 5000
+
+real	1m0.191s
+user	0m7.034s
+sys	0m0.590s
 ########## Run no 3 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to 132.207.72.28 port 13133 after 0 ms: Couldn't connect to server
-Remote collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    99  100    99    0     0  27250      0 --:--:-- --:--:-- --:--:-- 33000
+min = 1148624 ns
+mean = 1952598.557600 ns
+max = 12103089 ns
+median = 2431280.500000 ns
+std = 344491.070580 ns
+sum = 9762992788 ns
+first = 12103089 ns
+second = 1589477 ns
+third = 2101685 ns
+len = 5000
+
+real	1m0.318s
+user	0m7.158s
+sys	0m0.567s
 ########## Run no 4 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to 132.207.72.28 port 13133 after 0 ms: Couldn't connect to server
-Remote collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    99  100    99    0     0  25641      0 --:--:-- --:--:-- --:--:-- 33000
+min = 1105141 ns
+mean = 1959568.248200 ns
+max = 15629779 ns
+median = 2078185.000000 ns
+std = 373570.500267 ns
+sum = 9797841241 ns
+first = 15629779 ns
+second = 2132106 ns
+third = 2035929 ns
+len = 5000
+
+real	1m0.352s
+user	0m7.375s
+sys	0m0.390s
 ########## Run no 5 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to 132.207.72.28 port 13133 after 0 ms: Couldn't connect to server
-Remote collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    99  100    99    0     0  26428      0 --:--:-- --:--:-- --:--:-- 33000
+min = 940372 ns
+mean = 1947312.656400 ns
+max = 12508887 ns
+median = 2242135.000000 ns
+std = 353801.751891 ns
+sum = 9736563282 ns
+first = 12508887 ns
+second = 1538283 ns
+third = 1103045 ns
+len = 5000
+
+real	1m0.282s
+user	0m7.307s
+sys	0m0.416s
 ########## Run no 6 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to 132.207.72.28 port 13133 after 0 ms: Couldn't connect to server
-Remote collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    99  100    99    0     0  28629      0 --:--:-- --:--:-- --:--:-- 33000
+min = 951550 ns
+mean = 1915795.076200 ns
+max = 13678985 ns
+median = 1893780.500000 ns
+std = 375891.905093 ns
+sum = 9578975381 ns
+first = 13678985 ns
+second = 1711668 ns
+third = 1789959 ns
+len = 5000
+
+real	1m0.122s
+user	0m7.086s
+sys	0m0.515s
 ########## Run no 7 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to 132.207.72.28 port 13133 after 1 ms: Couldn't connect to server
-Remote collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    99  100    99    0     0  25242      0 --:--:-- --:--:-- --:--:-- 33000
+min = 999135 ns
+mean = 1929537.689800 ns
+max = 11460464 ns
+median = 2307418.500000 ns
+std = 345155.146562 ns
+sum = 9647688449 ns
+first = 11460464 ns
+second = 1552638 ns
+third = 1389134 ns
+len = 5000
+
+real	1m0.192s
+user	0m7.264s
+sys	0m0.361s
 ########## Run no 8 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to 132.207.72.28 port 13133 after 0 ms: Couldn't connect to server
-Remote collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    99  100    99    0     0  29747      0 --:--:-- --:--:-- --:--:-- 33000
+min = 922747 ns
+mean = 1922944.419400 ns
+max = 12668417 ns
+median = 2220658.000000 ns
+std = 356083.172172 ns
+sum = 9614722097 ns
+first = 12668417 ns
+second = 1700294 ns
+third = 1659512 ns
+len = 5000
+
+real	1m0.164s
+user	0m7.245s
+sys	0m0.358s
 ########## Run no 9 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to 132.207.72.28 port 13133 after 0 ms: Couldn't connect to server
-Remote collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    99  100    99    0     0  29403      0 --:--:-- --:--:-- --:--:-- 33000
+min = 1029334 ns
+mean = 1922316.684600 ns
+max = 11566479 ns
+median = 1609983.500000 ns
+std = 338729.263447 ns
+sum = 9611583423 ns
+first = 11566479 ns
+second = 1363908 ns
+third = 2107807 ns
+len = 5000
+
+real	1m0.161s
+user	0m7.083s
+sys	0m0.500s
 ########## Run no 10 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector ##########
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to 132.207.72.28 port 13133 after 0 ms: Couldn't connect to server
-Remote collector not responding
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    99  100    99    0     0  28189      0 --:--:-- --:--:-- --:--:-- 33000
+min = 1109952 ns
+mean = 1933579.267600 ns
+max = 12132325 ns
+median = 1856450.500000 ns
+std = 341199.519000 ns
+sum = 9667896338 ns
+first = 12132325 ns
+second = 1567563 ns
+third = 1390376 ns
+len = 5000
+
+real	1m0.216s
+user	0m7.054s
+sys	0m0.581s
 ########## Run no 1 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session ##########
 min = 103633 ns
 mean = 227305.898000 ns
@@ -1489,76 +1769,562 @@ Tracing stopped for session auto-20231101-130931
 Destroying session auto-20231101-130931..
 Session auto-20231101-130931 destroyed
 ########## Run no 1 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
-Session auto-20231101-131023 created.
-Traces will be output to /home/eysan/lttng-traces/auto-20231101-131023
+Session auto-20231101-172212 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20231101-172212
 ust event opentelemetry:* created in channel channel0
-Tracing started for session auto-20231101-131023
-min = 109684 ns
-mean = 229717.885800 ns
-max = 915163 ns
-median = 234410.000000 ns
-std = 24424.283508 ns
-sum = 1148589429 ns
-first = 915163 ns
-second = 189286 ns
-third = 193978 ns
+Tracing started for session auto-20231101-172212
+min = 108357 ns
+mean = 229752.938200 ns
+max = 708285 ns
+median = 228384.000000 ns
+std = 24207.239066 ns
+sum = 1148764691 ns
+first = 708285 ns
+second = 221943 ns
+third = 190729 ns
 len = 5000
 
-real	0m51.789s
-user	0m1.247s
-sys	0m0.073s
+real	0m51.783s
+user	0m1.215s
+sys	0m0.109s
 Waiting for data availability.
-Tracing stopped for session auto-20231101-131023
-Destroying session auto-20231101-131023..
-Session auto-20231101-131023 destroyed
+Tracing stopped for session auto-20231101-172212
+Destroying session auto-20231101-172212..
+Session auto-20231101-172212 destroyed
 ########## Run no 2 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
-Session auto-20231101-131116 created.
-Traces will be output to /home/eysan/lttng-traces/auto-20231101-131116
+Session auto-20231101-172305 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20231101-172305
 ust event opentelemetry:* created in channel channel0
-Tracing started for session auto-20231101-131116
-min = 102265 ns
-mean = 228110.023000 ns
-max = 674492 ns
-median = 235635.500000 ns
-std = 22389.587850 ns
-sum = 1140550115 ns
-first = 674492 ns
-second = 200089 ns
-third = 193495 ns
+Tracing started for session auto-20231101-172305
+min = 95493 ns
+mean = 231645.500800 ns
+max = 1072483 ns
+median = 236683.500000 ns
+std = 27392.673382 ns
+sum = 1158227504 ns
+first = 1072483 ns
+second = 219509 ns
+third = 193530 ns
 len = 5000
 
-real	0m51.785s
-user	0m1.212s
-sys	0m0.101s
+real	0m51.792s
+user	0m1.272s
+sys	0m0.067s
 Waiting for data availability.
-Tracing stopped for session auto-20231101-131116
-Destroying session auto-20231101-131116..
-Session auto-20231101-131116 destroyed
+Tracing stopped for session auto-20231101-172305
+Destroying session auto-20231101-172305..
+Session auto-20231101-172305 destroyed
 ########## Run no 3 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
-Session auto-20231101-131208 created.
-Traces will be output to /home/eysan/lttng-traces/auto-20231101-131208
+Session auto-20231101-172357 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20231101-172357
 ust event opentelemetry:* created in channel channel0
-Tracing started for session auto-20231101-131208
-min = 107940 ns
-mean = 231175.186400 ns
-max = 681863 ns
-median = 229183.500000 ns
-std = 21601.523464 ns
-sum = 1155875932 ns
-first = 681863 ns
-second = 202501 ns
-third = 200676 ns
+Tracing started for session auto-20231101-172357
+min = 91338 ns
+mean = 230682.880400 ns
+max = 678128 ns
+median = 226554.500000 ns
+std = 23777.052548 ns
+sum = 1153414402 ns
+first = 678128 ns
+second = 208495 ns
+third = 189429 ns
+len = 5000
+
+real	0m51.790s
+user	0m1.254s
+sys	0m0.079s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-172357
+Destroying session auto-20231101-172357..
+Session auto-20231101-172357 destroyed
+########## Run no 4 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20231101-172450 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20231101-172450
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-172450
+min = 103824 ns
+mean = 232251.193200 ns
+max = 798720 ns
+median = 225557.500000 ns
+std = 25984.132374 ns
+sum = 1161255966 ns
+first = 798720 ns
+second = 218376 ns
+third = 198325 ns
 len = 5000
 
 real	0m51.801s
-user	0m1.210s
+user	0m1.249s
+sys	0m0.091s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-172450
+Destroying session auto-20231101-172450..
+Session auto-20231101-172450 destroyed
+########## Run no 5 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20231101-172542 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20231101-172542
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-172542
+min = 115483 ns
+mean = 230118.933600 ns
+max = 788390 ns
+median = 225580.500000 ns
+std = 22960.277285 ns
+sum = 1150594668 ns
+first = 788390 ns
+second = 202140 ns
+third = 203351 ns
+len = 5000
+
+real	0m51.790s
+user	0m1.239s
+sys	0m0.091s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-172542
+Destroying session auto-20231101-172542..
+Session auto-20231101-172542 destroyed
+########## Run no 6 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20231101-172635 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20231101-172635
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-172635
+min = 117667 ns
+mean = 232048.887800 ns
+max = 704862 ns
+median = 221765.000000 ns
+std = 23652.617630 ns
+sum = 1160244439 ns
+first = 704862 ns
+second = 202320 ns
+third = 202249 ns
+len = 5000
+
+real	0m51.798s
+user	0m1.244s
+sys	0m0.098s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-172635
+Destroying session auto-20231101-172635..
+Session auto-20231101-172635 destroyed
+########## Run no 7 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20231101-172727 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20231101-172727
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-172727
+min = 112045 ns
+mean = 229779.347800 ns
+max = 689072 ns
+median = 228974.500000 ns
+std = 23388.150236 ns
+sum = 1148896739 ns
+first = 689072 ns
+second = 206227 ns
+third = 195992 ns
+len = 5000
+
+real	0m51.783s
+user	0m1.236s
+sys	0m0.090s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-172727
+Destroying session auto-20231101-172727..
+Session auto-20231101-172727 destroyed
+########## Run no 8 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20231101-172820 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20231101-172820
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-172820
+min = 99227 ns
+mean = 232395.003200 ns
+max = 758923 ns
+median = 235215.500000 ns
+std = 24597.155808 ns
+sum = 1161975016 ns
+first = 758923 ns
+second = 152087 ns
+third = 195299 ns
+len = 5000
+
+real	0m51.800s
+user	0m1.243s
+sys	0m0.103s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-172820
+Destroying session auto-20231101-172820..
+Session auto-20231101-172820 destroyed
+########## Run no 9 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20231101-172913 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20231101-172913
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-172913
+min = 89739 ns
+mean = 231587.850000 ns
+max = 804364 ns
+median = 231194.000000 ns
+std = 24020.615679 ns
+sum = 1157939250 ns
+first = 804364 ns
+second = 198522 ns
+third = 196840 ns
+len = 5000
+
+real	0m51.782s
+user	0m1.215s
+sys	0m0.115s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-172913
+Destroying session auto-20231101-172913..
+Session auto-20231101-172913 destroyed
+########## Run no 10 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
+Session auto-20231101-173005 created.
+Traces will be output to /home/eysan/lttng-traces/auto-20231101-173005
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-173005
+min = 109975 ns
+mean = 232731.703000 ns
+max = 713687 ns
+median = 292835.500000 ns
+std = 23223.995544 ns
+sum = 1163658515 ns
+first = 713687 ns
+second = 207689 ns
+third = 203241 ns
+len = 5000
+
+real	0m51.791s
+user	0m1.255s
+sys	0m0.084s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-173005
+Destroying session auto-20231101-173005..
+Session auto-20231101-173005 destroyed
+########## Run no 1 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.875 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.733 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.703 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.676 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 4 received, 20% packet loss, time 4066ms
+rtt min/avg/max/mdev = 0.676/0.746/0.875/0.076 ms
+Session auto-20231101-173103 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-173103
+min = 78871 ns
+mean = 234852.976800 ns
+max = 662471 ns
+median = 218940.000000 ns
+std = 21608.094682 ns
+sum = 1174264884 ns
+first = 662471 ns
+second = 189541 ns
+third = 191793 ns
+len = 5000
+
+real	0m51.822s
+user	0m1.266s
+sys	0m0.086s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-173103
+Destroying session auto-20231101-173103..
+Session auto-20231101-173103 destroyed
+########## Run no 2 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.710 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.633 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.924 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.707 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.732 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4070ms
+rtt min/avg/max/mdev = 0.633/0.741/0.924/0.097 ms
+Session auto-20231101-173159 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-173159
+min = 90962 ns
+mean = 232504.148200 ns
+max = 745923 ns
+median = 211229.000000 ns
+std = 24049.379705 ns
+sum = 1162520741 ns
+first = 745923 ns
+second = 124930 ns
+third = 182077 ns
+len = 5000
+
+real	0m51.803s
+user	0m1.273s
+sys	0m0.066s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-173159
+Destroying session auto-20231101-173159..
+Session auto-20231101-173159 destroyed
+########## Run no 3 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.624 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.734 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.714 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.546 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.858 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4106ms
+rtt min/avg/max/mdev = 0.546/0.695/0.858/0.105 ms
+Session auto-20231101-173256 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-173256
+min = 118573 ns
+mean = 231465.969800 ns
+max = 706015 ns
+median = 226190.000000 ns
+std = 24011.247610 ns
+sum = 1157329849 ns
+first = 706015 ns
+second = 205877 ns
+third = 205502 ns
+len = 5000
+
+real	0m51.815s
+user	0m1.244s
+sys	0m0.094s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-173256
+Destroying session auto-20231101-173256..
+Session auto-20231101-173256 destroyed
+########## Run no 4 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.583 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.725 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.652 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.707 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.668 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4083ms
+rtt min/avg/max/mdev = 0.583/0.667/0.725/0.049 ms
+Session auto-20231101-173353 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-173353
+min = 101364 ns
+mean = 231244.188600 ns
+max = 673486 ns
+median = 233140.000000 ns
+std = 23706.939658 ns
+sum = 1156220943 ns
+first = 673486 ns
+second = 160100 ns
+third = 196112 ns
+len = 5000
+
+real	0m51.805s
+user	0m1.219s
 sys	0m0.116s
 Waiting for data availability.
-Tracing stopped for session auto-20231101-131208
-Destroying session auto-20231101-131208..
-Session auto-20231101-131208 destroyed
-########## Run no 4 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled ##########
-Session auto-20231101-131301 created.
-Traces will be output to /home/eysan/lttng-traces/auto-20231101-131301
+Tracing stopped for session auto-20231101-173353
+Destroying session auto-20231101-173353..
+Session auto-20231101-173353 destroyed
+########## Run no 5 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.547 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.661 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.757 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.762 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.919 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4097ms
+rtt min/avg/max/mdev = 0.547/0.729/0.919/0.123 ms
+Session auto-20231101-173449 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
 ust event opentelemetry:* created in channel channel0
-Tracing started for session auto-20231101-131301
+Tracing started for session auto-20231101-173449
+min = 96081 ns
+mean = 231194.008600 ns
+max = 761605 ns
+median = 238137.000000 ns
+std = 25231.798458 ns
+sum = 1155970043 ns
+first = 761605 ns
+second = 224357 ns
+third = 192293 ns
+len = 5000
+
+real	0m51.799s
+user	0m1.269s
+sys	0m0.067s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-173449
+Destroying session auto-20231101-173449..
+Session auto-20231101-173449 destroyed
+########## Run no 6 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.670 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.684 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.693 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.684 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.675 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4074ms
+rtt min/avg/max/mdev = 0.670/0.681/0.693/0.008 ms
+Session auto-20231101-173546 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-173546
+min = 108113 ns
+mean = 232424.551000 ns
+max = 759265 ns
+median = 233198.000000 ns
+std = 22842.001754 ns
+sum = 1162122755 ns
+first = 759265 ns
+second = 211055 ns
+third = 198069 ns
+len = 5000
+
+real	0m51.809s
+user	0m1.234s
+sys	0m0.111s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-173546
+Destroying session auto-20231101-173546..
+Session auto-20231101-173546 destroyed
+########## Run no 7 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.509 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.700 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.698 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.795 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.740 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4083ms
+rtt min/avg/max/mdev = 0.509/0.688/0.795/0.096 ms
+Session auto-20231101-173643 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-173643
+min = 97844 ns
+mean = 234670.317600 ns
+max = 732198 ns
+median = 239164.000000 ns
+std = 23789.495338 ns
+sum = 1173351588 ns
+first = 732198 ns
+second = 227383 ns
+third = 205253 ns
+len = 5000
+
+real	0m51.828s
+user	0m1.281s
+sys	0m0.076s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-173643
+Destroying session auto-20231101-173643..
+Session auto-20231101-173643 destroyed
+########## Run no 8 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.534 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.567 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.699 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.772 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.746 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4073ms
+rtt min/avg/max/mdev = 0.534/0.663/0.772/0.095 ms
+Session auto-20231101-173739 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-173739
+min = 110419 ns
+mean = 231816.963200 ns
+max = 690317 ns
+median = 234636.500000 ns
+std = 23236.369101 ns
+sum = 1159084816 ns
+first = 690317 ns
+second = 152621 ns
+third = 129807 ns
+len = 5000
+
+real	0m51.805s
+user	0m1.231s
+sys	0m0.109s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-173739
+Destroying session auto-20231101-173739..
+Session auto-20231101-173739 destroyed
+########## Run no 9 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.491 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.743 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.701 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.709 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=0.782 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4096ms
+rtt min/avg/max/mdev = 0.491/0.685/0.782/0.101 ms
+Session auto-20231101-173836 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-173836
+min = 89115 ns
+mean = 230718.242600 ns
+max = 704621 ns
+median = 242427.000000 ns
+std = 24853.340594 ns
+sum = 1153591213 ns
+first = 704621 ns
+second = 201727 ns
+third = 190712 ns
+len = 5000
+
+real	0m51.807s
+user	0m1.262s
+sys	0m0.073s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-173836
+Destroying session auto-20231101-173836..
+Session auto-20231101-173836 destroyed
+########## Run no 10 executable=benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled ##########
+PING 132.207.72.28 (132.207.72.28) 56(84) bytes of data.
+64 bytes from 132.207.72.28: icmp_seq=1 ttl=64 time=0.511 ms
+64 bytes from 132.207.72.28: icmp_seq=2 ttl=64 time=0.721 ms
+64 bytes from 132.207.72.28: icmp_seq=3 ttl=64 time=0.715 ms
+64 bytes from 132.207.72.28: icmp_seq=4 ttl=64 time=0.759 ms
+64 bytes from 132.207.72.28: icmp_seq=5 ttl=64 time=1.06 ms
+
+--- 132.207.72.28 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4094ms
+rtt min/avg/max/mdev = 0.511/0.753/1.062/0.176 ms
+Session auto-20231101-173933 created.
+Traces will be output to tcp4://132.207.72.28:5342/ [data: 5343]
+ust event opentelemetry:* created in channel channel0
+Tracing started for session auto-20231101-173933
+min = 90243 ns
+mean = 230087.661400 ns
+max = 716526 ns
+median = 242816.000000 ns
+std = 27158.850751 ns
+sum = 1150438307 ns
+first = 716526 ns
+second = 130370 ns
+third = 185084 ns
+len = 5000
+
+real	0m51.780s
+user	0m1.234s
+sys	0m0.089s
+Waiting for data availability.
+Tracing stopped for session auto-20231101-173933
+Destroying session auto-20231101-173933..
+Session auto-20231101-173933 destroyed
+Done!

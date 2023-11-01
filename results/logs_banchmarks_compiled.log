@@ -1,0 +1,90 @@
+benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF without lttng session
+min = 179.0
+mean = 338.494
+max = 19982.0
+median = 357.5
+std = 353.930044
+real = 50579000000.0
+user = 55000000.0
+sys = 85000000.0
+benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session but all events disabled
+min = 91.0
+mean = 285.8178
+max = 15084.0
+median = 315.5
+std = 215.425175
+real = 50623000000.0
+user = 49000000.0
+sys = 98000000.0
+benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in lttng session ust event enabled
+min = 160.0
+mean = 311.0778
+max = 914.0
+median = 270.5
+std = 56.867377
+real = 50624000000.0
+user = 16000000.0
+sys = 132000000.0
+benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=OFF in remote lttng session ust event enabled
+min = 114.0
+mean = 301.7954
+max = 31328.0
+median = 380.5
+std = 565.728831
+real = 50632000000.0
+user = 23000000.0
+sys = 127000000.0
+benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with local collector
+min = 1162597.0
+mean = 1942426.8024
+max = 14075368.0
+median = 1942680.0
+std = 366042.981229
+real = 60257000000.0
+user = 7179000000.0
+sys = 481000000.0
+benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=OFF with remote collector
+min = 1109952.0
+mean = 1933579.2676
+max = 12132325.0
+median = 1856450.5
+std = 341199.519
+real = 60216000000.0
+user = 7054000000.0
+sys = 581000000.0
+benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON without lttng session
+min = 102454.0
+mean = 224581.1518
+max = 727890.0
+median = 227603.0
+std = 22159.711478
+real = 51732000000.0
+user = 1191000000.0
+sys = 99000000.0
+benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session but all events disabled
+min = 99687.0
+mean = 225345.6122
+max = 655659.0
+median = 247344.5
+std = 25446.567941
+real = 51757000000.0
+user = 1209000000.0
+sys = 87000000.0
+benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in lttng session ust event enabled
+min = 109975.0
+mean = 232731.703
+max = 713687.0
+median = 292835.5
+std = 23223.995544
+real = 51791000000.0
+user = 1255000000.0
+sys = 84000000.0
+benchmark-logs-simple TRACING_ENABLED=ON OPENTELEMETRY_C_TRACING_ENABLED=ON LTTNG_EXPORTER_ENABLED=ON in remote lttng session ust event enabled
+min = 90243.0
+mean = 230087.6614
+max = 716526.0
+median = 242816.0
+std = 27158.850751
+real = 51780000000.0
+user = 1234000000.0
+sys = 89000000.0
