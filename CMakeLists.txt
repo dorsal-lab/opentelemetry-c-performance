@@ -77,7 +77,7 @@ function(add_logs_benchmark_executable executable_name executable_src)
             target_link_libraries("${executable_name}" PRIVATE lttng-ust dl)
             target_sources("${executable_name}" PRIVATE src/common/telemetry_data_tracepoint.c)
         endif ()
-        target_compile_definitions("${executable_name}" PRIVATE N_LOGS_TO_CREATE=20000)
+        target_compile_definitions("${executable_name}" PRIVATE N_LOGS_TO_CREATE=5000)
     endif ()
     target_sources("${executable_name}" PRIVATE
             "${executable_src}"
