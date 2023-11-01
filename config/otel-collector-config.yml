@@ -24,6 +24,9 @@ exporters:
 processors:
   batch:
 
+extensions:
+  health_check:
+
 service:
   pipelines:
     logs:
